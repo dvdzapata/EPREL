@@ -1,0 +1,370 @@
+{
+  "category_code": "LIGHT_SOURCE",
+  "sheet_name": "Light sources (2019-2015)",
+  "category_info": {
+    "code": "LIGHT_SOURCE",
+    "url_code": "lightsources",
+    "name": "Light sources",
+    "regulation": "Regulation (EU) 2019/2015"
+  },
+  "fields": [
+    {
+      "key": "lightingTechnology",
+      "field_name": "Lighting technology used",
+      "type": "List",
+      "length_range": "HL, LFL_T5_HE, LFL_T5_HO, CFLNI, OTHER_FL, HPS, MH, OTHER_HID, LED, OLED, MIXED, OTHER",
+      "format": null
+    },
+    {
+      "key": "directional",
+      "field_name": "Non-directional or directional",
+      "type": "List",
+      "length_range": "NDLS, DLS",
+      "format": null
+    },
+    {
+      "key": "capType",
+      "field_name": "Light source cap-type (or other electric interface)",
+      "type": "Text",
+      "length_range": "255",
+      "format": null
+    },
+    {
+      "key": "mains",
+      "field_name": "Mains or non-mains",
+      "type": "List",
+      "length_range": "MLS, NMLS",
+      "format": null
+    },
+    {
+      "key": "connectedLightSource",
+      "field_name": "Connected light source (CLS)",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "colourTuneableLightSource",
+      "field_name": "Colour-tuneable light source",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "envelope",
+      "field_name": "Envelope",
+      "type": "List",
+      "length_range": "NO, SECOND, NON_CLEAR, SECOND_NON_CLEAR",
+      "format": null
+    },
+    {
+      "key": "highLuminanceLightSource",
+      "field_name": "High luminance light source",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "antiGlareShield",
+      "field_name": "Anti-glare shield",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "dimmable",
+      "field_name": "Dimmable",
+      "type": "List",
+      "length_range": "YES, NO, SPECIFIC",
+      "format": null
+    },
+    {
+      "key": "energyConsOnMode",
+      "field_name": "Energy consumption in on-mode",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "luminousFlux",
+      "field_name": "Useful luminous flux",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "beamAngleCorrespondence",
+      "field_name": "Beam angle correspondence",
+      "type": "List",
+      "length_range": "SPHERE_360, WIDE_CONE_120, NARROW_CONE_90",
+      "format": null
+    },
+    {
+      "key": "correlatedColourTempType",
+      "field_name": "Correlated colour temperature type",
+      "type": "List",
+      "length_range": "SINGLE_VALUE, RANGE, STEPS",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "correlatedColourTemperature",
+      "field_name": "Correlated colour temperature",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "correlatedColourTempMin",
+      "field_name": "Correlated colour temperature (Minimum)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "correlatedColourTempMax",
+      "field_name": "Correlated colour temperature (Maximum)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "powerOnMode",
+      "field_name": "On-mode power",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "powerStandby",
+      "field_name": "Standby power",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 0.99",
+      "format": "#.##"
+    },
+    {
+      "key": "powerStandbyNetworked",
+      "field_name": "Networked standby power for CLS",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 0.99",
+      "format": "#.##"
+    },
+    {
+      "key": "colourRenderingIndex",
+      "field_name": "Colour rendering index",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "minColourRenderingIndex",
+      "field_name": "Colour rendering index range (Minimum)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "maxColourRenderingIndex",
+      "field_name": "Colour rendering index range (Maximum)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "dimensionHeight",
+      "field_name": "Outer dimensions (Height)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "dimensionWidth",
+      "field_name": "Outer dimensions (Width)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "dimensionDepth",
+      "field_name": "Outer dimensions (Depth)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "spectralPowerDistributionImage",
+      "field_name": "Spectral power distribution in the range 250 nm to 800 nm, at full-load",
+      "type": "Text",
+      "length_range": "255",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "fileName",
+      "field_name": "File name",
+      "type": "Text",
+      "length_range": "256",
+      "format": null
+    },
+    {
+      "key": "file",
+      "field_name": "File",
+      "type": "String",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "fileSize",
+      "field_name": "File size",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "claimEquivalentPower",
+      "field_name": "Claim of equivalent power",
+      "type": "Boolean",
+      "length_range": "Yes/Not applicable",
+      "format": null
+    },
+    {
+      "key": "equivalentPower",
+      "field_name": "Equivalent power",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "chromaticityCoordY",
+      "field_name": "Chromaticity coordinate (x)",
+      "type": "Number (3 decimals)",
+      "length_range": "0.001 - 0.999",
+      "format": "#.###"
+    },
+    {
+      "key": "chromaticityCoordX",
+      "field_name": "Chromaticity coordinate (y)",
+      "type": "Number (3 decimals)",
+      "length_range": "0.001 - 0.999",
+      "format": "#.###"
+    },
+    {
+      "key": "peakLuminousIntensity",
+      "field_name": "Peak luminous intensity",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "#####"
+    },
+    {
+      "key": "beamAngle",
+      "field_name": "Beam angle",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 180",
+      "format": "###"
+    },
+    {
+      "key": "minBeamAngle",
+      "field_name": "Beam angle range (Minimum)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 180",
+      "format": "###"
+    },
+    {
+      "key": "maxBeamAngle",
+      "field_name": "Beam angle range (Maximum)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 180",
+      "format": "###"
+    },
+    {
+      "key": "R9ColourRenderingIndex",
+      "field_name": "R9 Colour rendering index",
+      "type": "Number (No decimals)",
+      "length_range": "-100 - 100",
+      "format": "###"
+    },
+    {
+      "key": "survivalFactor",
+      "field_name": "Survival factor",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 1.00",
+      "format": "#.##"
+    },
+    {
+      "key": "lumenMaintenanceFactor",
+      "field_name": "Lumen maintenance factor",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 1.00",
+      "format": "#.##"
+    },
+    {
+      "key": "displacementFactor",
+      "field_name": "Displacement factor",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 1.00",
+      "format": "#.##"
+    },
+    {
+      "key": "colourConsistency",
+      "field_name": "Colour consistency in McAdam ellipses",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 9",
+      "format": "#"
+    },
+    {
+      "key": "claimLedReplaceFluorescent",
+      "field_name": "Claims that an LED light source replaces a fluorescent light source without integrated ballast of a particular wattage",
+      "type": "Boolean",
+      "length_range": "Yes/Not applicable",
+      "format": null
+    },
+    {
+      "key": "replacementClaim",
+      "field_name": "Replacement claim",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "flickerMetric",
+      "field_name": "Flicker metric",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 9.9",
+      "format": "#.#"
+    },
+    {
+      "key": "stroboscopicEffectMetric",
+      "field_name": "Stroboscopic effect metric",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 9.9",
+      "format": "#.#"
+    }
+  ],
+  "field_count": 51
+}

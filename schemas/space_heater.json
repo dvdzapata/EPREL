@@ -1,0 +1,566 @@
+{
+  "category_code": "SPACE_HEATER",
+  "sheet_name": "Space heaters (811-2013)",
+  "category_info": {
+    "code": "SPACE_HEATER",
+    "url_code": "spaceheaters",
+    "name": "Space heaters/Combination heaters",
+    "regulation": "Regulation (EU) 811/2013"
+  },
+  "fields": [
+    {
+      "key": "category",
+      "field_name": "Category",
+      "type": "List",
+      "length_range": "SPACE_HEATER, COMBINATION_HEATER",
+      "format": null
+    },
+    {
+      "key": "type",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": "BOILER, COGENERATORION, HEAT_PUMP, LOW_TEMPERATURE_HEAT_PUMP",
+      "format": null
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiency",
+      "field_name": "Seasonal space heating energy efficiency \n\nSpace heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nSeasonal space heating energy efficiency (average climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyAnnualKwh",
+      "field_name": "Annual energy consumption – final energy\n\nSpace heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nAnnual energy consumption – final energy (average climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualGj",
+      "field_name": "Annual energy consumption – GCV\n\nSpace heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nAnnual energy consumption – GCV (average climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "noise",
+      "field_name": "Sound power level (Indoors)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "energyClassRange",
+      "field_name": "Scale",
+      "type": "List",
+      "length_range": "A++ - G, A+++ - D",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Seasonal space heating energy efficiency class\n\nSpace heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nSeasonal space heating energy efficiency class (average climate conditions - Low-temperature)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "electricalEfficiency",
+      "field_name": "Electrical efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "ratedHeatOutput",
+      "field_name": "Rated heat output ",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "outdoorNoise",
+      "field_name": "Sound power level (Outdoors)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutput",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nRated heat output (average climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutputCold",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nRated heat output (colder climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutputWarm",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nRated heat output (warmer climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyCold",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nSeasonal space heating energy efficiency (colder  climate conditions Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyWarm",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nSeasonal space heating energy efficiency (warmer  climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyAnnualColdKwh",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nAnnual energy consumption – final energy (colder climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualColdGj",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nAnnual energy consumption – GCV (colder climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyAnnualWarmKwh",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nAnnual energy consumption – final energy (warmer climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualWarmGj",
+      "field_name": "Space heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nAnnual energy consumption – GCV (warmer climate conditions - Low-temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "mediumTempEnergyClass",
+      "field_name": "Seasonal space heating energy efficiency class (average climate conditions – Medium temperature)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Seasonal space heating energy efficiency class (average climate conditions - Low-temperature)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "mediumTempRatedHeatOutputAverage",
+      "field_name": "Rated heat output (average climate conditions – Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "mediumTempRatedHeatOutputCold",
+      "field_name": "Rated heat output (colder  climate conditions – Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "mediumTempRatedHeatOutputWarm",
+      "field_name": "Rated heat output (warmer  climate conditions – Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "mediumTempSeasonalSpaceHeatingEnergyEfficiencyAverage",
+      "field_name": "Seasonal space heating energy efficiency (average climate conditions – Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "mediumTempSeasonalSpaceHeatingEnergyEfficiencyCold",
+      "field_name": "Seasonal space heating energy efficiency (colder  climate conditions - Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "mediumTempSeasonalSpaceHeatingEnergyEfficiencyWarm",
+      "field_name": "Seasonal space heating energy efficiency (warmer  climate conditions - Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "mediumTempEnergyAnnualAverageKwh",
+      "field_name": "Annual energy consumption – final energy (average climate conditions – Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "mediumTempEnergyAnnualAverageGj",
+      "field_name": "Annual energy consumption – GCV (average climate conditions – Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "mediumTempEnergyAnnualColdKwh",
+      "field_name": "Annual energy consumption – final energy (colder  climate conditions - Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "mediumTempEnergyAnnualColdGj",
+      "field_name": "Annual energy consumption – GCV (colder  climate conditions - Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "mediumTempEnergyAnnualWarmKwh",
+      "field_name": "Annual energy consumption – final energy (warmer climate conditions - Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "mediumTempEnergyAnnualWarmGj",
+      "field_name": "Annual energy consumption – GCV (warmer climate conditions - Medium temperature)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "loadProfile",
+      "field_name": "Load profile",
+      "type": "List",
+      "length_range": "3XS,XXS,XS,S,M,L,XL,XXL",
+      "format": null
+    },
+    {
+      "key": "lowTemperatureApplication",
+      "field_name": "Low-temperature application",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "waterHeatingEnergyClass",
+      "field_name": "Water heating energy efficiency class\n\nCombination heater-Heat pump: Water heating energy efficiency class (average climate conditions)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "waterHeatingEnergyEfficiency",
+      "field_name": "Water heating energy efficiency\n\nCombination heater-Heat pump: Water heating energy efficiency (average climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeatingEnergyEfficiencyCold",
+      "field_name": "Water heating energy efficiency (colder  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeatingEnergyEfficiencyWarm",
+      "field_name": "Water heating energy efficiency (warmer  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "onlyForOffPeakPeriod",
+      "field_name": "Work only on off-peak hours",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "waterHeatingElectricityAnnualKwh",
+      "field_name": "Annual electricity consumption – final energy\n\nCombination heater-Heat pump: Annual electricity consumption – final energy (average climate)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingElectricityAnnualColdKwh",
+      "field_name": "Annual electricity consumption – final energy (colder climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingElectricityAnnualWarmKwh",
+      "field_name": "Annual electricity consumption – final energy (warmer climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingElectricityAnnualGj",
+      "field_name": "Annual fuel consumption – GCV\n\nCombination heater-Heat pump: Annual fuel consumption – GCV (average climate)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "waterHeatingElectricityAnnualColdGj",
+      "field_name": "Annual fuel consumption – GCV (colder climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "waterHeatingElectricityAnnualWarmGj",
+      "field_name": "Annual fuel consumption – GCV (warmer climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyClass55",
+      "field_name": "Seasonal space heating energy efficiency class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyCold55",
+      "field_name": "Seasonal space heating energy efficiency (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyAverage55",
+      "field_name": "Seasonal space heating energy efficiency (Average) / Seasonal space heating energy efficiency (55º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyWarm55",
+      "field_name": "Seasonal space heating energy efficiency (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "ratedHeatOutputCold55",
+      "field_name": "Rated heat output (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutputAverage55",
+      "field_name": "Rated heat output (Average) / Rated heat output (55º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutputWarm55",
+      "field_name": "Rated heat output (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "energyAnnualColdKwh55",
+      "field_name": "Annual energy consumption - final energy (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualAverageKwh55",
+      "field_name": "Annual energy consumption - final energy (Average) / Annual energy consumption - final energy (55º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualWarmKwh55",
+      "field_name": "Annual energy consumption - final energy (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualColdGj55",
+      "field_name": "Annual energy consumption - GCV (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyAnnualAverageGj55",
+      "field_name": "Annual energy consumption - GCV (Average) / Annual energy consumption - GCV (55º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyAnnualWarmGj55",
+      "field_name": "Annual energy consumption - GCV (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyClass35",
+      "field_name": "Seasonal space heating energy efficiency class (35º)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyCold35",
+      "field_name": "Seasonal space heating energy efficiency (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyAverage35",
+      "field_name": "Seasonal space heating energy efficiency (Average) / Seasonal space heating energy efficiency (35º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "seasonalSpaceHeatingEnergyEfficiencyWarm35",
+      "field_name": "Seasonal space heating energy efficiency (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "ratedHeatOutputCold35",
+      "field_name": "Rated heat output (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutputAverage35",
+      "field_name": "Rated heat output (Average) / Rated heat output (35º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "ratedHeatOutputWarm35",
+      "field_name": "Rated heat output (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "energyAnnualColdKwh35",
+      "field_name": "Annual energy consumption - final energy (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualAverageKwh35",
+      "field_name": "Annual energy consumption - final energy (Average) / Annual energy consumption - final energy (35º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualWarmKwh35",
+      "field_name": "Annual energy consumption - final energy (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "energyAnnualColdGj35",
+      "field_name": "Annual energy consumption - GCV (Cold)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyAnnualAverageGj35",
+      "field_name": "Annual energy consumption - GCV (Average) / Annual energy consumption - GCV (35º)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyAnnualWarmGj35",
+      "field_name": "Annual energy consumption - GCV (Warm)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    }
+  ],
+  "field_count": 79
+}

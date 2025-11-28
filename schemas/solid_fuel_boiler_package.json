@@ -1,0 +1,167 @@
+{
+  "category_code": "SOLID_FUEL_BOILER_PACKAGE",
+  "sheet_name": "Packages of solid...(2015-1187)",
+  "category_info": {
+    "code": "SOLID_FUEL_BOILER_PACKAGE",
+    "url_code": "solidfuelboilerpackages",
+    "name": "Packages of solid fuel boilers",
+    "regulation": "Regulation (EU) 2015/1187"
+  },
+  "fields": [
+    {
+      "key": "packageEnergyEfficiencyIndex",
+      "field_name": "Energy efficiency index of package",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "packageEnergyClass",
+      "field_name": "Energy efficiency class of package",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "solarCollectorIncluded",
+      "field_name": "Solar collectors included",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "hotWaterStorageTanksIncluded",
+      "field_name": "Hot water storage tanks included",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "temperatureControlIncluded",
+      "field_name": "Temperature controls included",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "supplementaryHeaterIncluded",
+      "field_name": "Supplementary heaters included",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy efficiency class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy efficiency index",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "weightFactorHeatOutput",
+      "field_name": "Weight factor",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "temperatureControlContribution",
+      "field_name": "Temperature control Class",
+      "type": "List",
+      "length_range": "Class I to VIII",
+      "format": null
+    },
+    {
+      "key": "energyEfficiencyIndexOfSupplementaryBoiler",
+      "field_name": "Supplementary boiler seasonal space heating energy efficiency or energy efficiency index",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "contributionOfSupplementaryBoiler",
+      "field_name": "Supplementary boiler contribution",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "solarCollectorSize",
+      "field_name": "Solar collector size",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "solarTankVolume",
+      "field_name": "Solar Tank volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "collectorEfficiency",
+      "field_name": "Solar Collector efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "solarTankRating",
+      "field_name": "Solar Tank ranking",
+      "type": "List",
+      "length_range": "A+ - G",
+      "format": null
+    },
+    {
+      "key": "solarContribution",
+      "field_name": "Solar contribution",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "mathExprIII",
+      "field_name": "value of III [294/(11 · Pr)]",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "mathExprIV",
+      "field_name": "value of IV [115/(11 · Pr)]",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "seasonalEfficiencyOfSupplementaryHeatPump",
+      "field_name": "Supplementary heat pump Seasonal space heating energy efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "contributionOfSupplementaryHeatPump",
+      "field_name": "Supplementary heat pump contribution",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "solarContributionAndSupplementaryHeatPumpAdjustment",
+      "field_name": "Solar contribution AND supplementary heat pump adjustment",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 9999.99",
+      "format": "####.##"
+    }
+  ],
+  "field_count": 22
+}

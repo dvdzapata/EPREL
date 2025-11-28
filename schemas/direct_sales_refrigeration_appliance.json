@@ -1,0 +1,601 @@
+{
+  "category_code": "DIRECT_SALES_REFRIGERATION_APPLIANCE",
+  "sheet_name": "Refrig direct sales (2019-2018)",
+  "category_info": {
+    "code": "DIRECT_SALES_REFRIGERATION_APPLIANCE",
+    "url_code": "refrigeratingappliancesdirectsalesfunction",
+    "name": "Refrigerating appliances with a direct sales function",
+    "regulation": "Regulation (EU) 2019/2018"
+  },
+  "fields": [
+    {
+      "key": "applianceType",
+      "field_name": "Type of refrigerating appliance with a direct sales function",
+      "type": "List",
+      "length_range": "BeverageCooler, IceCreamFreezer, GelatoScoopingCabinet, SupermarketCabinet, RefrigeratedVendingMachine",
+      "format": null
+    },
+    {
+      "key": "cabinetFamilyCode",
+      "field_name": "Cabinet family code",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "energyConsAnnual",
+      "field_name": "Annual energy consumption (Integrated unit)",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 99999.99",
+      "format": "#####.##"
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy efficiency Index (EEI)",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "lightTechnology",
+      "field_name": "Lighting technology used",
+      "type": "List",
+      "length_range": "HL, LFL_T5_HE, LFL_T5_HO, CFLNI, OTHER_FL, HPS, MH, OTHER_HID, LED, OLED, MIXED, OTHER",
+      "format": null
+    },
+    {
+      "key": "lightDirectionality",
+      "field_name": "Non-directional or directional",
+      "type": "List",
+      "length_range": "NDLS, DLS",
+      "format": null
+    },
+    {
+      "key": "lightMains",
+      "field_name": "Mains or non-mains",
+      "type": "List",
+      "length_range": "MLS, NMLS",
+      "format": null
+    },
+    {
+      "key": "lightConnected",
+      "field_name": "Connected light source (CLS)",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "lightColourTuneable",
+      "field_name": "Colour-tuneable light source",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "lightEnvelop",
+      "field_name": "Envelope",
+      "type": "List",
+      "length_range": "NO, SECOND, NON_CLEAR",
+      "format": null
+    },
+    {
+      "key": "lightHighLuminance",
+      "field_name": "High luminance light source",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "lightAntiGlareShield",
+      "field_name": "Anti-glare shield",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "lightDimmable",
+      "field_name": "Dimmable",
+      "type": "List",
+      "length_range": "YES, NO, SPECIFIC",
+      "format": null
+    },
+    {
+      "key": "lightSourceClass",
+      "field_name": "Energy efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "guaranteeDuration",
+      "field_name": "Minimum duration of the guarantee offered by the manufacturer",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "webLinkManufacturer",
+      "field_name": "Weblink to the supplier’s website",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "grossVolumeChilledTotal",
+      "field_name": "Sum of the gross volumes of all compartments with chilled operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "highestTempChilled",
+      "field_name": "Highest average compartment temperature of all compartments with chilled operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "warmestAmbientTemp",
+      "field_name": "Warmest ambient temperature",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "recommendedTemp\n(Common to all Complex types of compartments)",
+      "field_name": "Recommended temperature(s) for optimised food storage",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "grossVolume",
+      "field_name": "Gross volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "warmestTemp",
+      "field_name": "Warmest temperature",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "relativeHumidity",
+      "field_name": "Relative humdity",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "transparentLid",
+      "field_name": "Transparent lid",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "netVolumeFrozenTotal",
+      "field_name": "Sum of the net volumes of all compartments with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "highestTempFrozen",
+      "field_name": "Highest average compartment temperature of all compartments with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99-99",
+      "format": "##"
+    },
+    {
+      "key": "maxAmbientTemp",
+      "field_name": "Maximum ambient temperature",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "recommendedTemp\n(Common to all Complex types of compartments)",
+      "field_name": "Recommended temperature(s) for optimised food storage",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "netVolume",
+      "field_name": "Net volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "ambientTempMin",
+      "field_name": "Ambient temperature range (minimum)",
+      "type": "Number (No decimals)",
+      "length_range": "0 -99",
+      "format": "##"
+    },
+    {
+      "key": "ambientTempMax",
+      "field_name": "Ambient temperature range (maximum)",
+      "type": "Number (No decimals)",
+      "length_range": "0 -99",
+      "format": "##"
+    },
+    {
+      "key": "relativeHumidityMin",
+      "field_name": "Relative humdity range (minimum)",
+      "type": "Number (No decimals)",
+      "length_range": "0 -99",
+      "format": "##"
+    },
+    {
+      "key": "relativeHumidityMax",
+      "field_name": "Relative humdity range (maximum)",
+      "type": "Number (No decimals)",
+      "length_range": "0 -99",
+      "format": "##"
+    },
+    {
+      "key": "displayAreaFrozenTotal",
+      "field_name": "Sum of the display areas with frozen operating temperatures",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "highestWarmTempFrozen",
+      "field_name": "Highest temperature of the warmest M-package of the compartment(s) with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "lowestColdHighestMinTempFrozen",
+      "field_name": "Lowest temperature of the coldest M-package of the compartment(s) with frozen operating temperatures, or the highest minimum temperature of all M-packages of the compartment(s) with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "recommendedTemp\n(Common to all Complex types of compartments)",
+      "field_name": "Recommended temperature(s) for optimised food storage",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "displayArea\n(Common to complex type of compartments for GelatoScoopingCabinet, SuperMarketCabinet)",
+      "field_name": "Total display area",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "tempClass",
+      "field_name": "Temperature class",
+      "type": "List",
+      "length_range": "G1, G2, G3, L1, L2, L3, S",
+      "format": null
+    },
+    {
+      "key": "cabinetType",
+      "field_name": "Cabinet type",
+      "type": "List",
+      "length_range": "INTEGRAL, REMOTE",
+      "format": null
+    },
+    {
+      "key": "cabinetOrientation",
+      "field_name": "Cabinet orientation",
+      "type": "List",
+      "length_range": "HORIZONTAL, VERTICAL, SEMI_VERTICAL, COMBINED",
+      "format": null
+    },
+    {
+      "key": "refrigerator",
+      "field_name": "Cabinet category - Refrigerator",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "freezer",
+      "field_name": "Cabinet category - Freezer",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "rollIn",
+      "field_name": "Roll-in",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "displayAreaChilledTotal",
+      "field_name": "Sum of the display areas with chilled operating temperatures",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "highestWarmTempChilled",
+      "field_name": "Highest temperature of the warmest M-package of the compartment(s) with chilled operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "lowestColdHighestMinTempChilled",
+      "field_name": "Lowest temperature of the coldest M-package of the compartment(s) with chilled operating temperatures, or the highest minimum temperature of all M-packages of the compartment(s) with chilled operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "displayAreaFrozenTotal",
+      "field_name": "Sum of the display areas with frozen operating temperatures",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "highestWarmTempFrozen",
+      "field_name": "Highest temperature of the warmest M-package of the compartment(s) with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "lowestColdHighestMinTempFrozen",
+      "field_name": "Lowest temperature of the coldest M-package of the compartment(s) with frozen operating temperatures, or the highest minimum temperature of all M-packages of the compartment(s) with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "recommendedTemp\n(Common to all Complex types of compartments)",
+      "field_name": "Recommended temperature(s) for optimised food storage",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "displayArea\n(Common to complex type of compartments for GelatoScoopingCabinet, SuperMarketCabinet)",
+      "field_name": "Total display area",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "tempClass",
+      "field_name": "Temperature class",
+      "type": "List",
+      "length_range": "M2, H1, H2, M1, L1, L2, L3",
+      "format": null
+    },
+    {
+      "key": "tempClassV2",
+      "field_name": "Temperature class",
+      "type": "List",
+      "length_range": "M0, M2, H1, H2, M1, L1, L2, L3",
+      "format": null
+    },
+    {
+      "key": "superMarketTempClassRefrigerator",
+      "field_name": "Temperature class (Refrigerator)",
+      "type": "List",
+      "length_range": "M0, M2, H1, H2, M1",
+      "format": null
+    },
+    {
+      "key": "superMarketTempClassFreezer",
+      "field_name": "Temperature class (Freezer)",
+      "type": "List",
+      "length_range": "L1, L2, L3",
+      "format": null
+    },
+    {
+      "key": "machineType",
+      "field_name": "Machine type",
+      "type": "List",
+      "length_range": "RefrigeratedClosedFronted, RefrigeratedGlassFronted, RefrigeratedGlassFrontedPerishableFood, MultiTemperature, CombinationMachine",
+      "format": null
+    },
+    {
+      "key": "netVolumeChilledTotal",
+      "field_name": "Sum of the net volumes of all compartments with chilled operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "highestWarmTempChilled",
+      "field_name": "Maximum measured product temperature of the compartment(s) with chilled operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "highestWarmTempFrozen",
+      "field_name": "Maximum measured product temperature of the compartment(s) with frozen operating temperatures",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Other food type",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "recommendedTemp\n(Common to all Complex types of compartments)",
+      "field_name": "Recommended temperature(s) for optimised food storage",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "volume",
+      "field_name": "Volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "tempClass",
+      "field_name": "Temperature class",
+      "type": "List",
+      "length_range": "CATEGORY_1, CATEGORY_2, CATEGORY_3, CATEGORY_4, CATEGORY_6",
+      "format": null
+    }
+  ],
+  "field_count": 84
+}

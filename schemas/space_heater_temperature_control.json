@@ -1,0 +1,20 @@
+{
+  "category_code": "SPACE_HEATER_TEMPERATURE_CONTROL",
+  "sheet_name": "SH Temp control (811-2013)",
+  "category_info": {
+    "code": "SPACE_HEATER_TEMPERATURE_CONTROL",
+    "url_code": "spaceheatertemperaturecontrol",
+    "name": "Temperature controls for space heaters",
+    "regulation": "Regulation (EU) 811/2013"
+  },
+  "fields": [
+    {
+      "key": "temperatureControlClass",
+      "field_name": "Temperature control contribution",
+      "type": "List",
+      "length_range": "CLASS_I, CLASS_II, CLASS_III, CLASS_IV, CLASS_V, CLASS_VI, CLASS_VII, CLASS_VIII",
+      "format": null
+    }
+  ],
+  "field_count": 1
+}

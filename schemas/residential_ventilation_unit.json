@@ -1,0 +1,272 @@
+{
+  "category_code": "RESIDENTIAL_VENTILATION_UNIT",
+  "sheet_name": "RVU (1254-2014)",
+  "category_info": {
+    "code": "RESIDENTIAL_VENTILATION_UNIT",
+    "url_code": "residentialventilationunits",
+    "name": "Residential Ventilation Units",
+    "regulation": "Regulation (EU) 1254/2014"
+  },
+  "fields": [
+    {
+      "key": "specificEnergyConsumptionAverage",
+      "field_name": "Specific energy consumption (average zone)",
+      "type": "Number (1 decimals)",
+      "length_range": "-99.9 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "specificEnergyConsumptionCold",
+      "field_name": "Specific energy consumption (cold zone)",
+      "type": "Number (1 decimals)",
+      "length_range": "-99.9 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "specificEnergyConsumptionWarm",
+      "field_name": "Specific energy consumption (warm zone)",
+      "type": "Number (1 decimals)",
+      "length_range": "-99.9 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Specific energy consumption class (average zone)",
+      "type": "List",
+      "length_range": "A+ - G",
+      "format": null
+    },
+    {
+      "key": "energyAnnual",
+      "field_name": "Annual Electricity Consumption",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "driveType",
+      "field_name": "Type of drive",
+      "type": "List",
+      "length_range": "MULTI_SPEED_DRIVE, VARIABLE_SPEED_DRIVE",
+      "format": null
+    },
+    {
+      "key": "maximumFlowRate",
+      "field_name": "Maximum flow rate",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "fanDrivePowerInput",
+      "field_name": "Electric power input of the fan drive",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "soundPowerLevel",
+      "field_name": "Sound power level",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "referenceFlowRate",
+      "field_name": "Reference flow rate",
+      "type": "Number (2 decimals)",
+      "length_range": "0.001 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "referencePressureDifference",
+      "field_name": "Reference pressure difference",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "specificPowerInput",
+      "field_name": "Specific Power Input",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "controlTypology",
+      "field_name": "Control typology",
+      "type": "List",
+      "length_range": "CENTRAL_DEMAND_CONTROL, CLOCK_CONTROL, LOCAL_DEMAND_CONTROL, MANUAL_CONTROL",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "positionText",
+      "field_name": "Position of visual filter warning",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "descriptionText",
+      "field_name": "Description of visual filter warning",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "airflowSensitivity",
+      "field_name": "Airflow sensitivity to pressure variations at + 20 Pa and – 20 Pa",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "annualHeatingSavedColdClimate",
+      "field_name": "Annual Heating Saved at cold climate",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "annualHeatingSavedAverageClimate",
+      "field_name": "Annual Heating Saved at average climate",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "annualHeatingSavedWarmClimate",
+      "field_name": "Annual Heating Saved at warm climate",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "airTightness",
+      "field_name": "Indoor/Outdoor air tightness",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "ductedUnit",
+      "field_name": "Ducted",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "onlineInstruction",
+      "field_name": "Pre-/dis-assembly instructions URL",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "typology",
+      "field_name": "Typology",
+      "type": "List",
+      "length_range": "UVU, BVU",
+      "format": null
+    },
+    {
+      "key": "heatRecoverySystem",
+      "field_name": "Type of heat recovery system",
+      "type": "List",
+      "length_range": "NONE,\nRECUPERATIVE,\nREGENERATIVE",
+      "format": null
+    },
+    {
+      "key": "thermalEfficiencyHeatRecovery",
+      "field_name": "Thermal efficiency of heat recovery",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "maximumInternalLeakageRate",
+      "field_name": "Maximum internal leakage rates",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "maximumExternalLeakageRate",
+      "field_name": "Maximum external leakage rates",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "carryOver",
+      "field_name": "Carry over",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "mixingRate",
+      "field_name": "Mixing rate",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Instructions to install regulated supply/exhaust grilles in the façade for natural air supply/extraction",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "externalLeakageRate",
+      "field_name": "External leakage rates",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 100.0",
+      "format": "###.#"
+    }
+  ],
+  "field_count": 37
+}

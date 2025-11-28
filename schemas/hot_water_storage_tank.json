@@ -1,0 +1,48 @@
+{
+  "category_code": "HOT_WATER_STORAGE_TANK",
+  "sheet_name": "WH Hot water tank (812-2013)",
+  "category_info": {
+    "code": "HOT_WATER_STORAGE_TANK",
+    "url_code": "hotwaterstoragetanks",
+    "name": "Hot water storage tanks for water heaters",
+    "regulation": "Regulation (EU) 812/2013"
+  },
+  "fields": [
+    {
+      "key": "energyClass",
+      "field_name": "Energy efficiency class",
+      "type": "List",
+      "length_range": "A+ - G",
+      "format": null
+    },
+    {
+      "key": "waterStorageStandingLoss",
+      "field_name": "Standing loss",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "solarTankVolumeLiters",
+      "field_name": "Storage volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    }
+  ],
+  "field_count": 5
+}

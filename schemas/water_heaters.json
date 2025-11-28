@@ -1,0 +1,307 @@
+{
+  "category_code": "WATER_HEATERS",
+  "sheet_name": "Water heaters (812-2013)",
+  "category_info": {
+    "code": "WATER_HEATERS",
+    "url_code": "waterheaters",
+    "name": "Water heaters",
+    "regulation": "Regulation (EU) 812/2013"
+  },
+  "fields": [
+    {
+      "key": "complexType",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Water heating energy efficiency class",
+      "type": "List",
+      "length_range": "A+ - G",
+      "format": null
+    },
+    {
+      "key": "noise",
+      "field_name": "Sound power level (Indoors)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "workOnlyDuringOffPeakHours",
+      "field_name": "Able to work only during off-peak hours",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "smart",
+      "field_name": "Smart",
+      "type": "Number (No decimals)",
+      "length_range": "NULL or 1",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "solarCollectorSize",
+      "field_name": "Collector aperture",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "zeroLossEfficiency",
+      "field_name": "Zero-loss efficiency",
+      "type": "Number (3 decimals)",
+      "length_range": "0.001 - 99.999",
+      "format": "##.###"
+    },
+    {
+      "key": "zeroLossCoefficient",
+      "field_name": "First-order coefficient",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "secondOrderCoefficient",
+      "field_name": "Second-order coefficient",
+      "type": "Number (3 decimals)",
+      "length_range": "0.001 - 99.999",
+      "format": "##.###"
+    },
+    {
+      "key": "incidenceAngle",
+      "field_name": "Incidence angle modifier",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "solarTankVolumeLitres",
+      "field_name": "Storage volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "pumpPowerConsumption",
+      "field_name": "Pump power consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "standbyConsumption",
+      "field_name": "Standby power consumption",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "outDoorNoise",
+      "field_name": "Sound power level (Outdoors)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "declatedLoadProfileType",
+      "field_name": "Load profile",
+      "type": "List",
+      "length_range": "XXXS, XXS, XS, S, M, L, XL, XXL",
+      "format": null
+    },
+    {
+      "key": "declatedLoadProfileWaterHeatingEfficiency",
+      "field_name": "Water heating energy efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "declatedLoadProfileWaterHeatingAnnualElectricityCons",
+      "field_name": "Annual electricity consumption ",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "declatedLoadProfileWaterHeatingAnnualEnergyGJ",
+      "field_name": "Annual fuel consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "isDeclaredLoadProfile",
+      "field_name": "Is declared profile?",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "type",
+      "field_name": "Load profile",
+      "type": "List",
+      "length_range": "XXXS, XXS, XS, S, M, L, XL, XXL",
+      "format": null
+    },
+    {
+      "key": "waterHeatingEfficiency",
+      "field_name": "Water heating energy efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeatingAnnualElectricityCons",
+      "field_name": "Annual electricity consumption ",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingAnnualEnergyGJ",
+      "field_name": "Annual fuel consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "waterHeatingEfficiencyColdClim",
+      "field_name": "Water heating energy efficiency (colder  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeatingEfficiencyWarmClim",
+      "field_name": "Water heating energy efficiency (warmer  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeatingAnnualColdClimKWH",
+      "field_name": "Annual electricity consumption (colder  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingAnnualColdClimGJ",
+      "field_name": "Annual fuel consumption (colder  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "waterHeatingAnnualWarmClimKWH",
+      "field_name": "Annual electricity consumption (warmer  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingAnnualWarmClimGJ",
+      "field_name": "Annual fuel consumption (warmer  climate conditions)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "isDeclaredLoadProfile",
+      "field_name": "Is declared profile?",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "type",
+      "field_name": "Load profile",
+      "type": "List",
+      "length_range": "XXXS, XXS, XS, S, M, L, XL, XXL",
+      "format": null
+    },
+    {
+      "key": "waterHeatingEfficiency",
+      "field_name": "Water heating energy efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeatingAnnualElectricityCons",
+      "field_name": "Annual electricity consumption ",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "waterHeatingAnnualEnergyGJ",
+      "field_name": "Annual fuel consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "thermostatSettings",
+      "field_name": "Thermostat temperature settings",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "specificInstructions",
+      "field_name": "Specific precautions",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "smartTextualIndication",
+      "field_name": "Smart indication",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    }
+  ],
+  "field_count": 42
+}

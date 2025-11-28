@@ -186,5 +186,15 @@
 		"regulation": "Regulation (EU) 2020/740"
 	},
 	{
-    	
+		"code": "SMARTPHONES",
+		"url_code": "smartphones",
+		"name": "Smartphones",
+		"regulation": "Regulation (EU) 2023/1669"
+	},
+	{
+		"code": "HOUSEHOLD_TUMBLE_DRIER_2023",
+		"url_code": "tumbledriers2023",
+		"name": "Household tumble driers",
+		"regulation": "Regulation (EU) 2023/2534"
+	}
 ]

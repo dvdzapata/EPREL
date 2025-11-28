@@ -1,0 +1,384 @@
+{
+  "category_code": "HOUSEHOLD_WASHER_DRYER_2019",
+  "sheet_name": "Household Wash-Dry (2019-2014)",
+  "category_info": {
+    "code": "HOUSEHOLD_WASHER_DRYER_2019",
+    "url_code": "washerdriers2019",
+    "name": "Household washer-dryers",
+    "regulation": "Regulation (EU) 2019/2014"
+  },
+  "fields": [
+    {
+      "key": "ratedCapacityWash",
+      "field_name": "Rated capacity (Washing cycle)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "ratedCapacityWashAndDry",
+      "field_name": "Rated capacity (Complete cycle)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "dimensionHeight",
+      "field_name": "Overall dimensions (Height)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "dimensionWidth",
+      "field_name": "Overall dimensions (Width)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "dimensionDepth",
+      "field_name": "Overall dimensions (Depth)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyEfficiencyIndexWash",
+      "field_name": "Energy efficiency Index (EEI) (Washing cycle)",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyEfficiencyIndexWashAndDry",
+      "field_name": "Energy efficiency Index (EEI) (Complete cycle)",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyClassWash",
+      "field_name": "Energy Efficiency Class (Washing cycle)",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "energyClassWashAndDry",
+      "field_name": "Energy Efficiency Class (Complete cycle)",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "washingEfficiencyIndexWash",
+      "field_name": "Washing efficiency index (IW)",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "washingEfficiencyIndexWashV2",
+      "field_name": "Washing efficiency index (IW)",
+      "type": "Number (3 decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "washingEfficiencyIndexWashAndDry",
+      "field_name": "Washing efficiency index (JW)",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "washingEfficiencyIndexWashAndDryV2",
+      "field_name": "Washing efficiency index (JW)",
+      "type": "Number (3 decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "rinsingEffectivenessWash",
+      "field_name": "Rinsing effectiveness (IR)",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "rinsingEffectivenessWashAndDry",
+      "field_name": "Rinsing effectiveness (JR)",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyConsumptionWash",
+      "field_name": "Energy consumption (Washing cycle)",
+      "type": "Number (3 decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyConsumptionWashAndDry",
+      "field_name": "Energy consumption (Complete cycle)",
+      "type": "Number (3 decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyConsumption100Wash",
+      "field_name": "Weighted energy consumption [per 100 cycles, (Washing cycle)]",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyConsumption100WashAndDry",
+      "field_name": "Weighted energy consumption [per 100 cycles, (Complete cycle)]",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterConsumptionWash",
+      "field_name": "Water consumption (Washing cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterConsumptionWashAndDry",
+      "field_name": "Water consumption (Complete cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "maxTempRatedWash",
+      "field_name": "Maximum temperature inside the treated textile (Rated washing capacity) (Washing cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "maxTempHalfWash",
+      "field_name": "Maximum temperature inside the treated textile (Half) (Washing cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "maxTempQuarterWash",
+      "field_name": "Maximum temperature inside the treated textile (Quarter) (Washing cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "maxTempRatedWashAndDry",
+      "field_name": "Maximum temperature inside the treated textile (Rated washing capacity) (Complete cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "maxTempHalfWashAndDry",
+      "field_name": "Maximum temperature inside the treated textile (Half) (Complete cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "moistureRated",
+      "field_name": "Remaining moisture content (Rated washing capacity)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 100",
+      "format": "###"
+    },
+    {
+      "key": "moistureHalf",
+      "field_name": "Remaining moisture content (Half)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 100",
+      "format": "###"
+    },
+    {
+      "key": "moistureQuarter",
+      "field_name": "Remaining moisture content (Quarter)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 100",
+      "format": "###"
+    },
+    {
+      "key": "moisture",
+      "field_name": "Weighted remaining moisture content",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 100.0",
+      "format": "###.#"
+    },
+    {
+      "key": "spinSpeedRated",
+      "field_name": "Spin speed (Rated washing capacity)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "spinSpeedHalf",
+      "field_name": "Spin speed (Half)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "spinSpeedQuarter",
+      "field_name": "Spin speed (Quarter)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "spinClass",
+      "field_name": "Spin-drying efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "programDurationRatedWash",
+      "field_name": "Eco 40-60 programme duration (Rated washing capacity)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "programDurationHalfWash",
+      "field_name": "Eco 40-60 programme duration (Half)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "programDurationQuarterWash",
+      "field_name": "Eco 40-60 programme duration (Quarter)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "programDurationRatedWashAndDry",
+      "field_name": "Wash and dry cycle duration (Rated  capacity)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "programDurationHalfWashAndDry",
+      "field_name": "Wash and dry cycle duration (Half)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "noise",
+      "field_name": "Airborne acoustical noise emissions (spinning phase)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "noiseClass",
+      "field_name": "Airborne acoustical noise emission class (spinning phase)",
+      "type": "List",
+      "length_range": "A - D",
+      "format": null
+    },
+    {
+      "key": "designType",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": "BUILT_IN, FREE_STANDING",
+      "format": null
+    },
+    {
+      "key": "powerOffMode",
+      "field_name": "Off-mode",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerStandbyMode",
+      "field_name": "Standby mode",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerDelayStart",
+      "field_name": "Delay start",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerNetworkedStandby",
+      "field_name": "Networked standby",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "guaranteeDuration",
+      "field_name": "Minimum duration of the guarantee offered by the supplier",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "releasesSilverIrons",
+      "field_name": "Releases silver ions",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "webLinkSupplier",
+      "field_name": "Weblink to the supplier’s website",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    }
+  ],
+  "field_count": 53
+}

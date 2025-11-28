@@ -1,0 +1,188 @@
+{
+  "category_code": "HOUSEHOLD_COMBINED_WASHER_DRIER",
+  "sheet_name": "Household washer-dri (96-60-EC)",
+  "category_info": {
+    "code": "HOUSEHOLD_COMBINED_WASHER_DRIER",
+    "url_code": "washerdriers",
+    "name": "Household combined washer-driers",
+    "regulation": "Regulation 96/60/EC"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "energyAnnualWashAndDry",
+      "field_name": "Annual Energy consumption washing, spinning and drying  (complete operating cycle)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "waterAnnualWashAndDry",
+      "field_name": "Annual water consumption washing, spinning and drying  (complete operating cycle)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "energyAnnualWash",
+      "field_name": "Annual Energy consumption washing and spinning (washing cycle)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "waterAnnualWash",
+      "field_name": "Annual Water consumption washing and spinning (washing cycle)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "noiseWash",
+      "field_name": "Noise (Washing phase)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "noiseSpin",
+      "field_name": "Noise (Spinning phase)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "noiseDry",
+      "field_name": "Noise (Drying phase)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "otherCycle",
+      "field_name": "Other cycles (leave blank for standard cotton cycle)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "otherCycleLabel",
+      "field_name": "Other cycle name",
+      "type": "Text",
+      "length_range": "255",
+      "format": null
+    },
+    {
+      "key": "energyConsWashAndDry",
+      "field_name": "Energy consumption for washing, spinning and drying (complete operating cycle)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "energyConsWash",
+      "field_name": "Energy consumption for washing and spinning  (washing cycle)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 9.99",
+      "format": "#.##"
+    },
+    {
+      "key": "washingPerformanceClass",
+      "field_name": "Washing Performance Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "waterExtractionEff",
+      "field_name": "Water extraction efficiency",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "spinMax",
+      "field_name": "Maximum Spin Speed",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "capacityWash",
+      "field_name": "Washing Capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "capacityDry",
+      "field_name": "Drying capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "waterConsWD",
+      "field_name": "Water consumption for washing, spinning and drying (complete operating cycle)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterConsWash",
+      "field_name": "Water consumption for washing and spinning (washing cycle)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "washTime",
+      "field_name": "Washing and drying programme time",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    }
+  ],
+  "field_count": 25
+}

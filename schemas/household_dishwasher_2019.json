@@ -1,0 +1,202 @@
+{
+  "category_code": "HOUSEHOLD_DISHWASHER_2019",
+  "sheet_name": "Household dishwash (2019-2017)",
+  "category_info": {
+    "code": "HOUSEHOLD_DISHWASHER_2019",
+    "url_code": "dishwashers2019",
+    "name": "Household dishwashers",
+    "regulation": "Regulation (EU) 2019/2017"
+  },
+  "fields": [
+    {
+      "key": "ratedCapacity",
+      "field_name": "Rated capacity (ps)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "dimensionHeight",
+      "field_name": "Overall dimensions (Height)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "dimensionWidth",
+      "field_name": "Overall dimensions (Width)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "dimensionDepth",
+      "field_name": "Overall dimensions (Depth)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy efficiency Index (EEI)",
+      "type": "Number (1  decimals)",
+      "length_range": "0.0 - 999.9",
+      "format": "###"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "cleaningPerformanceIndex",
+      "field_name": "Cleaning performance index",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "cleaningPerformanceIndexV2",
+      "field_name": "Cleaning performance index",
+      "type": "Number (3 decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "dryingPerformanceIndex",
+      "field_name": "Drying performance index",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "dryingPerformanceIndexV2",
+      "field_name": "Drying performance index",
+      "type": "Number (3 decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyCons",
+      "field_name": "Energy consumption [per cycle, based on the eco programme]",
+      "type": "Number (3  decimals)",
+      "length_range": "0.000 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyCons100",
+      "field_name": "Energy consumption [per 100 cycles, based on the eco programme]",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterCons",
+      "field_name": "Water consumption [per cycle, based on the eco programme]",
+      "type": "Number (1  decimals)",
+      "length_range": "0.0 - 99.9",
+      "format": "###.#"
+    },
+    {
+      "key": "programmeDuration",
+      "field_name": "Programme duration",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "type",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": "BUILT_IN, FREE_STANDING",
+      "format": null
+    },
+    {
+      "key": "noise",
+      "field_name": "Airborne acoustical noise emissions",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "noiseClass",
+      "field_name": "Airborne acoustical noise emission class",
+      "type": "List",
+      "length_range": "A - D",
+      "format": null
+    },
+    {
+      "key": "powerOffMode",
+      "field_name": "Off-mode",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerStandbyMode",
+      "field_name": "Standby mode",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerDelayStart",
+      "field_name": "Delay start",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerNetworkStandby",
+      "field_name": "Networked standby",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "guaranteeDuration",
+      "field_name": "Minimum duration of the guarantee offered by the supplier",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "webLinkSupplier",
+      "field_name": "Weblink to the supplier’s website",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    }
+  ],
+  "field_count": 27
+}

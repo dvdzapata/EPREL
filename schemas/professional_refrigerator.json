@@ -1,0 +1,125 @@
+{
+  "category_code": "PROFESSIONAL_REFRIGERATOR",
+  "sheet_name": "Prof refr stor cab (2015-1094)",
+  "category_info": {
+    "code": "PROFESSIONAL_REFRIGERATOR",
+    "url_code": "professionalrefrigeratedstoragecabinets",
+    "name": "Professional refrigerating storage cabinets",
+    "regulation": "Regulation (EU) 2015/1094"
+  },
+  "fields": [
+    {
+      "key": "modelType",
+      "field_name": "Model Type",
+      "type": "List",
+      "length_range": "COUNTER_CABINET,\nVERTICAL_CABINET",
+      "format": null
+    },
+    {
+      "key": "operatingTemperature",
+      "field_name": "Operating temperature",
+      "type": "List",
+      "length_range": "HEAVY_DUTY_CABINET,\nLIGHT_DUTY_CABINET,\nSTANDARD",
+      "format": null
+    },
+    {
+      "key": "energyClassRange",
+      "field_name": "Scale",
+      "type": "List",
+      "length_range": "A - G, A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy Efficiency Index",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "energyConsumption",
+      "field_name": "Energy Consumption (E24h)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "energyAnnual",
+      "field_name": "Annual Energy Consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "###"
+    },
+    {
+      "key": "chilledVolume",
+      "field_name": "Volume (Chilled)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999 CHANGE TO 0 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "frozenVolume",
+      "field_name": "Volume (Frozen)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999 CHANGE TO 0 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "climateClass",
+      "field_name": "Climate class",
+      "type": "List",
+      "length_range": "3, 4, 5",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "climateClassInOperations",
+      "field_name": "Climate class in operations",
+      "type": "List",
+      "length_range": "CHILLED_OPERATING_TEMPERATURE\nFROZEN_OPERATING_TEMPERATURE\nMULTI_USE_CABINET",
+      "format": null
+    },
+    {
+      "key": "netVolume",
+      "field_name": "Net Volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    }
+  ],
+  "field_count": 16
+}

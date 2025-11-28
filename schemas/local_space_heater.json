@@ -1,0 +1,83 @@
+{
+  "category_code": "LOCAL_SPACE_HEATER",
+  "sheet_name": "Local space heaters (2015-1186)",
+  "category_info": {
+    "code": "LOCAL_SPACE_HEATER",
+    "url_code": "localspaceheaters",
+    "name": "Local space heaters",
+    "regulation": "Regulation (EU) 2015/1186"
+  },
+  "fields": [
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A++ - G",
+      "format": null
+    },
+    {
+      "key": "directHeatOutput",
+      "field_name": "Direct heat output",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "indirectHeatOutput",
+      "field_name": "Indirect heat output",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy Efficiency Index",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "usefulEnergyEfficiencyNominal",
+      "field_name": "Useful Energy Efficiency (at nominal heat output)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 100.0",
+      "format": "##.#"
+    },
+    {
+      "key": "usefulEnergyEfficiencyMinimum",
+      "field_name": "Useful Energy Efficiency (at minimum load)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 100.0",
+      "format": "##.#"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    }
+  ],
+  "field_count": 10
+}

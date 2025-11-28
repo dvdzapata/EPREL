@@ -1,0 +1,139 @@
+{
+  "category_code": "RANGE_HOOD",
+  "sheet_name": "Range hoods (65-2014)",
+  "category_info": {
+    "code": "RANGE_HOOD",
+    "url_code": "rangehoods",
+    "name": "Range hoods",
+    "regulation": "Regulation (EU) 65/2014"
+  },
+  "fields": [
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyAnnual",
+      "field_name": "Annual Energy Consumption",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "fluidDynamicEfficiency",
+      "field_name": "Fluid Dynamic Efficiency",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 100.0",
+      "format": "##.#"
+    },
+    {
+      "key": "fluidDynamicEfficiencyClass",
+      "field_name": "Fluid Dynamic Efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "lightingEfficiency",
+      "field_name": "Lighting Efficiency",
+      "type": "Number (1 decimal)",
+      "length_range": "0.0 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "lightingEfficiencyClass",
+      "field_name": "Lighting Efficiency class",
+      "type": "List",
+      "length_range": "A - G + NA",
+      "format": null
+    },
+    {
+      "key": "greaseFilteringEfficiency",
+      "field_name": "Grease Filtering Efficiency",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 100.0",
+      "format": "##.#"
+    },
+    {
+      "key": "greaseFilteringEfficiencyClass",
+      "field_name": "Grease Filtering Efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "airFlowMin",
+      "field_name": "Air flow (min speed normal use)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 1000",
+      "format": "###"
+    },
+    {
+      "key": "airFlowMax",
+      "field_name": "Air flow (max speed normal use)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 1000",
+      "format": "###"
+    },
+    {
+      "key": "airFlowBoost",
+      "field_name": "Air flow (intensive or boost use)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 1000",
+      "format": "###"
+    },
+    {
+      "key": "soundPowerMin",
+      "field_name": "Airborne acoustical A-weighted sound power emissions (min speed normal use)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "soundPowerMax",
+      "field_name": "Airborne acoustical A-weighted sound power emissions (max speed normal use)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "powerConsumptionStandbyMode",
+      "field_name": "Power consumption in standby mode",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 100.00",
+      "format": "###.##"
+    },
+    {
+      "key": "soundPowerBoost",
+      "field_name": "Airborne acoustical A-weighted sound power emissions (intensive or boost use)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "noise",
+      "field_name": "Noise",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "powerConsumptionOffMode",
+      "field_name": "Power consumption in off mode",
+      "type": "Number (2 decimal)",
+      "length_range": "0.00 - 100.00",
+      "format": "###.##"
+    },
+    {
+      "key": "energyClassRange",
+      "field_name": "Scale",
+      "type": "List",
+      "length_range": "A - G, A+ - F, A++ - E, A+++ - D",
+      "format": null
+    }
+  ],
+  "field_count": 18
+}

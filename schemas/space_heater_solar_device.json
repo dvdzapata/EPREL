@@ -1,0 +1,111 @@
+{
+  "category_code": "SPACE_HEATER_SOLAR_DEVICE",
+  "sheet_name": "SH Solar device (811-2013)",
+  "category_info": {
+    "code": "SPACE_HEATER_SOLAR_DEVICE",
+    "url_code": "spaceheatersolardevice",
+    "name": "Solar devices for space heaters",
+    "regulation": "Regulation (EU) 811/2013"
+  },
+  "fields": [
+    {
+      "key": "solarCollectorApertureArea",
+      "field_name": "Solar collector aperture area",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "solarCollectorEfficiency",
+      "field_name": "Solar collector efficiency",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "solarTankEnergyClass",
+      "field_name": "Energy efficiency class of the solar hot water storage tank",
+      "type": "List",
+      "length_range": "A+ - G",
+      "format": null
+    },
+    {
+      "key": "waterStorageStandingLoss",
+      "field_name": "Standing loss of the solar hot water storage tank",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "solarTankStorageVolumeL",
+      "field_name": "Storage volume of the solar hot water storage tank",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "solarTankStorageVolumeM3",
+      "field_name": "Storage volume of the solar hot water storage tank",
+      "type": "Number (3 decimals)",
+      "length_range": "0.001 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "pumpPowerConsumption",
+      "field_name": "Pump power consumption",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "standbyPowerConsumption",
+      "field_name": "Standby power consumption",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "annualAuxiliaryElectricityConsumption",
+      "field_name": "Annual auxiliary electricity consumption",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "type",
+      "field_name": "Load profile",
+      "type": "List",
+      "length_range": "M, L, XL, XXL",
+      "format": null
+    },
+    {
+      "key": "annualNonSolarHeatContributionElec",
+      "field_name": "Annual non-solar heat contribution (Electricity)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999999",
+      "format": "######"
+    },
+    {
+      "key": "annualNonSolarHeatContributionFuel",
+      "field_name": "Annual non-solar heat contribution (Fuel)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    }
+  ],
+  "field_count": 14
+}

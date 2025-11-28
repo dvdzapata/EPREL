@@ -1,0 +1,202 @@
+{
+  "category_code": "HOUSEHOLD_TUMBLE_DRIER",
+  "sheet_name": "Household tumble dri (392-2012)",
+  "category_info": {
+    "code": "HOUSEHOLD_TUMBLE_DRIER",
+    "url_code": "tumbledriers",
+    "name": "Household tumble driers",
+    "regulation": "Regulation (EU) 392/2012"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "capacityCotton",
+      "field_name": "Rated capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "#.#"
+    },
+    {
+      "key": "type",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": "AIRVENTED, CONDENSER, GASFIRED",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - D",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "automaticDryingProcess",
+      "field_name": "Automatic tumble dryer",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "powerOffMode",
+      "field_name": "Power Consumption of the off-mode",
+      "type": "Number (2 decimal)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerLeftOnMode",
+      "field_name": "Power Consumption of the left-on mode",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "durationLeftOnMode2010",
+      "field_name": "Duration of the left-on mode",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "weightedProgrammeTime",
+      "field_name": "Weighted programme time of the ‘standard cotton programme at full and partial load’",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "programmeTimeFL",
+      "field_name": "Programme time of the ‘standard cotton programme at full load’ (T dry)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "programmeTimePL",
+      "field_name": "Programme time of the ‘standard cotton programme at partial load’ (T dry½ )",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "noise",
+      "field_name": "Sound power level (weighted average value)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "builtIn",
+      "field_name": "Built-in",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "weightedEnergyAnnual",
+      "field_name": "Weighted Annual Energy Consumption",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyConsELEFL",
+      "field_name": "Energy Consumption (E dry)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "energyConsELEPL",
+      "field_name": "Energy Consumption (E dry1/2)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "condensationEnergyClass",
+      "field_name": "Condensation efficiency class",
+      "type": "List",
+      "length_range": "G - A",
+      "format": null
+    },
+    {
+      "key": "averageCondensationEfficiencyFL",
+      "field_name": "Average condensation efficiency (C dry)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "averageCondensationEfficiencyPL",
+      "field_name": "Average condensation efficiency (C dry½)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "weightedCondensationEfficiency",
+      "field_name": "Weighted condensation efficiency",
+      "type": "Number (2 decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "weightedEnergyAnnualGas",
+      "field_name": "Weighted Annual Energy Consumption (Gas)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyConsGASFL",
+      "field_name": "Energy Consumption (Eg dry)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "energyConsGASPL",
+      "field_name": "Energy Consumption (Eg dry1/2)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "energyConsAuxELEFL",
+      "field_name": "Energy Consumption (Eg dry,a)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "energyConsAuxELEPL",
+      "field_name": "Energy Consumption (Eg dry1/2,a)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    }
+  ],
+  "field_count": 27
+}

@@ -1,0 +1,104 @@
+{
+  "category_code": "DOMESTIC_OVEN",
+  "sheet_name": "Domestic Ovens (65-2014)",
+  "category_info": {
+    "code": "DOMESTIC_OVEN",
+    "url_code": "ovens",
+    "name": "Domestic Ovens",
+    "regulation": "Regulation (EU) 65/2014"
+  },
+  "fields": [
+    {
+      "key": "numberCavities",
+      "field_name": "Number of cavities",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 10",
+      "format": "##"
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "heatSourceType",
+      "field_name": "Heat source",
+      "type": "List",
+      "length_range": "ELECTRICITY, GAS",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - D",
+      "format": null
+    },
+    {
+      "key": "volume",
+      "field_name": "Volume",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyConsumptionCycle",
+      "field_name": "Energy consumption per cycle (conventional mode)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 9.99",
+      "format": "#.##"
+    },
+    {
+      "key": "energyConsumptionCycleFanForced",
+      "field_name": "Energy consumption per cycle (fan-forced convection mode)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 9.99",
+      "format": "#.##"
+    },
+    {
+      "key": "energyConsumptionCycleGas",
+      "field_name": "Energy consumption per cycle (conventional mode) (gas)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "energyConsumptionCycleFanForcedGas",
+      "field_name": "Energy consumption per cycle (fan-forced convection mode) (gas)",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy efficiency Index",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    }
+  ],
+  "field_count": 13
+}

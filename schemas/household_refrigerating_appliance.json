@@ -1,0 +1,202 @@
+{
+  "category_code": "HOUSEHOLD_REFRIGERATING_APPLIANCE",
+  "sheet_name": "Household refriger (1060-2010)",
+  "category_info": {
+    "code": "HOUSEHOLD_REFRIGERATING_APPLIANCE",
+    "url_code": "refrigeratingappliances",
+    "name": "Household refrigerating appliances",
+    "regulation": "Regulation (EU) 1060/2010"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "category",
+      "field_name": "Category",
+      "type": "List",
+      "length_range": "1 to 10",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "energyConsAnnual",
+      "field_name": "Annual Energy Consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "###"
+    },
+    {
+      "key": "temperatureRiseTime",
+      "field_name": "Temperature rise time",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "freezingCapacity",
+      "field_name": "Freezing capacity",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "climateClassSN",
+      "field_name": "Climate class (SN)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "climateClassST",
+      "field_name": "Climate class (ST)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "climateClassT",
+      "field_name": "Climate class (T)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "climateClassN",
+      "field_name": "Climate class (N)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "noise",
+      "field_name": "Airborne acoustical noise emissions",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "builtIn",
+      "field_name": "Built-in",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "capFreezeNet",
+      "field_name": "Sum of the storage volumes of all frozen-food storage compartments that merit a star rating",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "capRefrNet",
+      "field_name": "Sum of the storage volumes of all compartments that do not merit a star rating",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "ratedCapacityBottles",
+      "field_name": "Rated capacity in number of standard bottles of 75 centilitres",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "ratingCompartment",
+      "field_name": "Star rating of the compartment with the highest share of that sum",
+      "type": "Number (No decimals)",
+      "length_range": "0 to 4",
+      "format": null
+    },
+    {
+      "key": "wineStorageAppliance",
+      "field_name": "Wine storage appliance",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "type",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": "CELLAR, CHILL, FOUR_STAR, FRESH_FOOD_STORAGE,\nONE_STAR, OTHER, THREE_STAR, TWO_STAR,\nWINE_STORAGE, ZERO_STAR",
+      "format": null
+    },
+    {
+      "key": "capacity",
+      "field_name": "Storage Volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "rating",
+      "field_name": "Star rating",
+      "type": "Number (No decimals)",
+      "length_range": "0 to 4",
+      "format": null
+    },
+    {
+      "key": "designTemperature",
+      "field_name": "Other compartments' design temperature",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "wineStorageTemperature",
+      "field_name": "Coldest storage temperature for wine storage compartments",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "frostFree",
+      "field_name": "Frost-free",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    }
+  ],
+  "field_count": 27
+}

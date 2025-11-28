@@ -1,0 +1,370 @@
+{
+  "category_code": "AIR_CONDITIONER",
+  "sheet_name": "AC (626-2011)",
+  "category_info": {
+    "code": "AIR_CONDITIONER",
+    "url_code": "airconditioners",
+    "name": "Air conditioners",
+    "regulation": "Regulation (EU) 626/2011"
+  },
+  "fields": [
+    {
+      "key": "indoorModelIdentifiers",
+      "field_name": "Indoor Model Identifier",
+      "type": "Text (Multiple)",
+      "length_range": "255",
+      "format": null
+    },
+    {
+      "key": "outdoorModelIdentifier",
+      "field_name": "Outdoor Model Identifier",
+      "type": "Text",
+      "length_range": "255",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "refrigerantName",
+      "field_name": "Refrigerant Name",
+      "type": "Text",
+      "length_range": "255",
+      "format": null
+    },
+    {
+      "key": "refrigerantGwp",
+      "field_name": "Refrigerant GWP",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "functionType",
+      "field_name": "Function",
+      "type": "List",
+      "length_range": "COOLING_ONLY,\nHEATING_ONLY,\nREVERSIBLE",
+      "format": null
+    },
+    {
+      "key": "ductedType",
+      "field_name": "Ducted",
+      "type": "List",
+      "length_range": "SINGLE_DUCT, DOUBLE_DUCT, OTHER",
+      "format": null
+    },
+    {
+      "key": "energyClassRange",
+      "field_name": "Scale",
+      "type": "List",
+      "length_range": "A - G, A+ - F, A++ - E, A+++ - D",
+      "format": null
+    },
+    {
+      "key": "coolingEnergyClass",
+      "field_name": "Energy Efficiency Class (Cooling)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "heatingEnergyClass",
+      "field_name": "Energy Efficiency Class (Heating)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "coolingDesignLoad",
+      "field_name": "Design cooling load",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "heatingDesignLoad",
+      "field_name": "Design heating load",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "indoorSoundPowerHeating",
+      "field_name": "Inside sound power levels (Heating)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "outdoorSoundPowerHeating",
+      "field_name": "Outside sound power levels (Heating)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "indoorSoundPowerCooling",
+      "field_name": "Inside sound power levels (Cooling)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "outdoorSoundPowerCooling",
+      "field_name": "Outside sound power levels (Cooling)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "indoorSoundPower",
+      "field_name": "Inside sound power levels",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "outdoorSoundPower",
+      "field_name": "Outside sound power levels",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "seasonalEnergyEfficiencyRatio",
+      "field_name": "Seasonal Energy Efficiency Ratio (SEER)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 9.9",
+      "format": "#.#"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "annualElectricityConsumption",
+      "field_name": "Annual Electricity Consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "designLoad",
+      "field_name": "Design Load",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyEfficiencyRatio",
+      "field_name": "Energy Efficiency Ratio (EER)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - D",
+      "format": null
+    },
+    {
+      "key": "hourlyElectricityConsumption",
+      "field_name": "Hourly electricity consumption",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "ratedCapacity",
+      "field_name": "Cooling capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "indoorSoundPower",
+      "field_name": "Inside sound power levels",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "outdoorSoundPower",
+      "field_name": "Outside sound power levels",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "seasonalCoefficientOfPerformanceAverage",
+      "field_name": "Seasonal Coefficient Of Performance (SCOP) (Average season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "seasonalCoefficientOfPerformanceWarm",
+      "field_name": "Seasonal Coefficient Of Performance (SCOP) (Warmer season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "seasonalCoefficientOfPerformanceCold",
+      "field_name": "Seasonal Coefficient Of Performance (SCOP) (Colder season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyClassAverage",
+      "field_name": "Energy Efficiency Class (Average season)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyClassWarm",
+      "field_name": "Energy Efficiency Class (Warmer season)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyClassCold",
+      "field_name": "Energy Efficiency Class (Colder season)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "annualElectricityConsumptionAverage",
+      "field_name": "Annual Electricity Consumption (Average season)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "annualElectricityConsumptionWarm",
+      "field_name": "Annual Electricity Consumption (Warmer season)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "annualElectricityConsumptionCold",
+      "field_name": "Annual Electricity Consumption (Colder  season)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "designLoadAverage",
+      "field_name": "Design Load (Average season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "designLoadWarm",
+      "field_name": "Design Load (Warmer season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "designLoadCold",
+      "field_name": "Design Load (Colder season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "declaredCapacityAverage",
+      "field_name": "Declared capacity (Average season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "declaredCapacityWarm",
+      "field_name": "Declared capacity (Warmer season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "declaredCapacityCold",
+      "field_name": "Declared capacity (Colder season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "backupCapacityAverage",
+      "field_name": "Backup heating capacity (Average season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.0 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "backupCapacityWarm",
+      "field_name": "Backup heating capacity (Warmer season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.0 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "backupCapacityCold",
+      "field_name": "Backup heating capacity (Colder season)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.0 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "coefficientOfPerformance",
+      "field_name": "Coefficient Of Performance (COP)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - D",
+      "format": null
+    },
+    {
+      "key": "hourlyElectricityConsumption",
+      "field_name": "Hourly electricity consumption",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "ratedCapacity",
+      "field_name": "Heating capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    }
+  ],
+  "field_count": 51
+}

@@ -1,0 +1,258 @@
+{
+  "category_code": "SMARTPHONES",
+  "sheet_name": "Smartphones (2023-1669)",
+  "category_info": {
+    "code": "SMARTPHONES",
+    "url_code": "smartphones",
+    "name": "Smartphones",
+    "regulation": "Regulation (EU) 2023/1669"
+  },
+  "fields": [
+    {
+      "key": "deviceType",
+      "field_name": "Device type",
+      "type": "List",
+      "length_range": "SMARTPHONE, TABLET",
+      "format": null
+    },
+    {
+      "key": "isFoldable",
+      "field_name": "Foldable device",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "operatingSystem",
+      "field_name": "Operating system",
+      "type": "List",
+      "length_range": "\t\nANDROID, IOS, OTHER",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "batteryUserReplaceable",
+      "field_name": "Battery user-replaceable",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "batteryEndurancePerCycle",
+      "field_name": "Battery endurance per cycle",
+      "type": "Number (no decimals)",
+      "length_range": "1 - 29999",
+      "format": "#"
+    },
+    {
+      "key": "batteryEnduranceInCycles",
+      "field_name": "Battery endurance in cycles – default settings",
+      "type": "Number (no decimals)",
+      "length_range": "1-99",
+      "format": "#"
+    },
+    {
+      "key": "ratedBatteryCapacity",
+      "field_name": "Rated battery capacity (Crated)",
+      "type": "Number (no decimals)",
+      "length_range": "1 - 99999",
+      "format": "#"
+    },
+    {
+      "key": "shippedWithProtectiveCover",
+      "field_name": "Shipped with protective cover",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "fallsWithoutDefect",
+      "field_name": "Repeated free fall reliability test – falls without defect [n]",
+      "type": "Number (no decimals)",
+      "length_range": "0 - 999\n\nIF DEVICE_TYPE = SMARTPHONE THEN {\n    IF IS_FOLDABLE = (false OR null) THEN {\n        minimum value FALLS_WITHOUT_DEFECT = 45\n    }\n    ELSE {\n        minimum value FALLS_WITHOUT_DEFECT =35\n    }\n}",
+      "format": "#"
+    },
+    {
+      "key": "fallsWithoutDefectFullyExtended",
+      "field_name": "Repeated free fall reliability test – falls without defect, tested in fully extended state [n]",
+      "type": "Number (no decimals)",
+      "length_range": "0 - 999\n\nIF DEVICE_TYPE = SMARTPHONE AND IS_FOLDABLE = true THEN {\n    minimum value  FALLS_WITHOUT_DEFECT_FULLY_EXTENDED = 15\n}",
+      "format": "#"
+    },
+    {
+      "key": "repeatedFreeFallReliabilityClass",
+      "field_name": "Repeated free fall reliability class",
+      "type": "List",
+      "length_range": "A - E",
+      "format": null
+    },
+    {
+      "key": "ingressProtectionRatingSolid",
+      "field_name": "Ingress protection rating - Solid foreign objects",
+      "type": "List",
+      "length_range": "NO_PROTECTION=0 - no protection\nMORE_THAN_50MM=1 - ≥ 50mm\nTOUCH_FINGERS=2 - protected from touch by fingers and ≥ 12mm\nMORE_THAN_2_5MM=3 - ≥ 2,5mm\nMORE_THAN_1MM=4 - ≥ 1mm\nDUST_PROTECTED=5 - dust-protected\nDUST_TIGHT=6 - dust-tight",
+      "format": "IPxy"
+    },
+    {
+      "key": "ingressProtectionRatingWater",
+      "field_name": "Ingress protection rating - Water with harmful effects",
+      "type": "List",
+      "length_range": "NO_PROTECTION=0 - no protection\nVERTICAL_DRIPPING=1 - vertical water dripping\nSPRAY_LESS_THAN_15_DEGREES=2 - water spray less than 15 degrees from vertical\nSPRAY_LESS_THAN_60_DEGREES=3 - water spray less than 60 degrees from vertical\nSPLASHING=4 - splashing of water\nJETTING=5 - jetting of water\nPOWERFUL_JETTING=6 - powerful jetting of water\nTEMP_IMMERSION=7 - temporary immersion, 1 m depth\nCONT_IMMERSION=8 - continuous immersion, 1 m or more depth",
+      "format": "IPxy"
+    },
+    {
+      "key": "immersionDepthWater",
+      "field_name": "Specified immersion depth in water, in case of IPx8",
+      "type": "Number (2 decimals)",
+      "length_range": "1,00 - 99,99",
+      "format": "#,##"
+    },
+    {
+      "key": "screenScratchResistance",
+      "field_name": "Screen scratch resistance on Mohs hardness scale",
+      "type": "List",
+      "length_range": "MOHS_1=1\nMOHS_2=2\nMOHS_3=3\nMOHS_4=4\nMOHS_5=5\nMOHS_6=6\nMOHS_7=7\nMOHS_8=8\nMOHS_9=9\nMOHS_10=10",
+      "format": null
+    },
+    {
+      "key": "chargerRequiredOutputPower",
+      "field_name": "Charger - Required output power",
+      "type": "Number (no decimals)",
+      "length_range": "1 - 99",
+      "format": "#"
+    },
+    {
+      "key": "chargerReceptacleType",
+      "field_name": "Charger - Receptacle type (at device end)",
+      "type": "List",
+      "length_range": "USB_A=USB-A\nUSB_MICRO_B=USB-Micro B\nUSB_C=USB-C\nOTHER=other",
+      "format": null
+    },
+    {
+      "key": "minYearsSoftwareUpdates",
+      "field_name": "\tMinimum guaranteed availability of operating system security updates, corrective updates and functionality updates",
+      "type": "Number (no decimals)",
+      "length_range": "1999-05-01 00:00:00",
+      "format": "#"
+    },
+    {
+      "key": "repairabilityClass",
+      "field_name": "Repairability Class (based on the Repairability index)",
+      "type": "List",
+      "length_range": "A - E",
+      "format": null
+    },
+    {
+      "key": "repairabilityIndex",
+      "field_name": "\tRepairability Index",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 5,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "disassemblyDepthScore",
+      "field_name": "Disassembly Depth (SDD) score",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 5,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "fastenersScore",
+      "field_name": "Fasteners type score (SF)",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 5,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "toolsScore",
+      "field_name": "Tools type score (ST)",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 5,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "sparePartScore",
+      "field_name": "Spare Part score (SSP)",
+      "type": "List",
+      "length_range": "PRIORITY=5\nDISPLAY_BATTERY_BACK_COVER_CAMERAS=4\nDISPLAY_BATTERY_BACK_COVER=3\nDISPLAY_BATTERY=2\nDISPLAY=1",
+      "format": "x,xx"
+    },
+    {
+      "key": "softwareUpdatesScore",
+      "field_name": "Software Updates (duration) score (SSU)",
+      "type": "List",
+      "length_range": "MINIMUM_YEARS_MORE_THAN_7=5\nMINIMUM_YEARS_6=3\nMINIMUM_YEARS_5=1",
+      "format": "x,xx"
+    },
+    {
+      "key": "repairInfoScore",
+      "field_name": "Repair information score (SRI)",
+      "type": "List",
+      "length_range": "NO_COST=5\nNO_COST_PROFESSIONAL_REPAIRERS=3\nREASONABLE_FEE_PROFESSIONAL_REPAIRERS=1",
+      "format": null
+    },
+    {
+      "key": "webLinkInfoSparePartsAvailability",
+      "field_name": "Weblink to information on spare parts availability for professional repairers and end users",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "webLinkRepairInstructions",
+      "field_name": "Weblink to repair instructions for end-users",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "webLinkPretaxPrices",
+      "field_name": "Weblink to indicative pre-tax prices",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "guranteeDuration",
+      "field_name": "Minimum duration of the guarantee offered by the supplier",
+      "type": "Number (no  decimals)",
+      "length_range": "0-999",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    }
+  ],
+  "field_count": 35
+}

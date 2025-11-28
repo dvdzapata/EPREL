@@ -1,0 +1,258 @@
+{
+  "category_code": "HOUSEHOLD_TUMBLE_DRIER_2023",
+  "sheet_name": "H. tumble dryers (2023-2534)",
+  "category_info": {
+    "code": "HOUSEHOLD_TUMBLE_DRIER_2023",
+    "url_code": "tumbledriers2023",
+    "name": "Household tumble driers",
+    "regulation": "Regulation (EU) 2023/2534"
+  },
+  "fields": [
+    {
+      "key": "technology",
+      "field_name": "Technology of tumble dryer",
+      "type": "List",
+      "length_range": "ELECTRIC_HEAT_PUMP_CONDENSER, ELECTRIC_CONVENTIONAL_CONDENSER, ELECTRIC_AIR_VENTED, GAS_FIRED_AIR_VENTED",
+      "format": null
+    },
+    {
+      "key": "ratedCapacity",
+      "field_name": "Rated capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "1,0 - 99,9 ",
+      "format": "x,x"
+    },
+    {
+      "key": "dimensionHeight",
+      "field_name": "Dimensions (Height)",
+      "type": "Number (No decimals)",
+      "length_range": "30 - 250 ",
+      "format": "x"
+    },
+    {
+      "key": "dimensionWidth",
+      "field_name": "Dimensions (Width)",
+      "type": "Number (No decimals)",
+      "length_range": "20 - 150",
+      "format": "x"
+    },
+    {
+      "key": "dimensionDepth",
+      "field_name": "Dimensions (Depth)",
+      "type": "Number (No decimals)",
+      "length_range": "20 - 150",
+      "format": "x"
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy Efficiency Index (EEI)",
+      "type": "Number (1  decimals)",
+      "length_range": "0,0 - 999,9",
+      "format": "x,x"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "energyConsDry",
+      "field_name": "Weighted energy consumption in kWh per drying cycle. Actual energy consumption will depend on how the appliance is used.",
+      "type": "Number (2  decimals)",
+      "length_range": "0,01 - 9,99",
+      "format": "x,xx"
+    },
+    {
+      "key": "programDurationRated",
+      "field_name": "Programme duration (Rated capacity)",
+      "type": "Number (No decimals)",
+      "length_range": "1 -1000",
+      "format": "x,xx"
+    },
+    {
+      "key": "programDurationHalf",
+      "field_name": "Programme duration (Half)",
+      "type": "Number (No decimals)",
+      "length_range": "1 -1000",
+      "format": "x,xx"
+    },
+    {
+      "key": "type",
+      "field_name": "Type",
+      "type": "List",
+      "length_range": "BUILT_IN, \nFREE_STANDING",
+      "format": null
+    },
+    {
+      "key": "noise",
+      "field_name": "Acoustic airborne noise emission (dB(A) re 1 pW)",
+      "type": "Number",
+      "length_range": "1-99",
+      "format": "x"
+    },
+    {
+      "key": "noiseClass",
+      "field_name": "Acoustic airborne noise emission class",
+      "type": "List",
+      "length_range": "A - D",
+      "format": null
+    },
+    {
+      "key": "powerOffMode",
+      "field_name": "Off-mode (if applicable)",
+      "type": "Number (2  decimals)",
+      "length_range": "0,00 - 0,50",
+      "format": "x,xx"
+    },
+    {
+      "key": "powerStandbyMode",
+      "field_name": "Standby mode (if applicable) ",
+      "type": "Number (2  decimals)",
+      "length_range": "0,00 - 1,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "powerDelayStart",
+      "field_name": "Delay start (if applicable)",
+      "type": "Number (2  decimals)",
+      "length_range": "0,00 - 4,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "powerNetworkedStandby",
+      "field_name": "Networked standby (if applicable)",
+      "type": "Number (2  decimals)",
+      "length_range": "0,00 - 2,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "repairabilityClass",
+      "field_name": "Repairability Class (based on the Repairability index)",
+      "type": "List",
+      "length_range": "A - E",
+      "format": null
+    },
+    {
+      "key": "repairabilityIndex",
+      "field_name": "\tRepairability Index",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 10,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "disassemblyDepthScore",
+      "field_name": "Disassembly Depth (SDD) score",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 10,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "fastenersScore",
+      "field_name": "Fasteners type score (SF)",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 10,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "toolsScore",
+      "field_name": "Tools type score (ST)",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 10,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "repairInfoScore",
+      "field_name": "Repair information score (SRI)",
+      "type": "Number (2  decimals)",
+      "length_range": "1,00 - 10,00",
+      "format": "x,xx"
+    },
+    {
+      "key": "webLinkSparePartsAvailability",
+      "field_name": "Weblink to information on spare parts availability for professional repairers and end users",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "webLinkRepairInstructions",
+      "field_name": "Weblink to repair instructions for end-users",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "webLinkPretaxPrices",
+      "field_name": "Weblink to indicative pre-tax prices",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "guranteeDuration",
+      "field_name": "Minimum duration of the guarantee offered by the supplier",
+      "type": "Number (no  decimals)",
+      "length_range": "0-999",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "webLinkManufacturer",
+      "field_name": "Link to the supplier’s website, where the information in point 6 of Annex II to Commission Regulation (EU) 2023/2533 is found:",
+      "type": "URL",
+      "length_range": "2000",
+      "format": "https://xxx"
+    },
+    {
+      "key": "condensationEfficiency",
+      "field_name": "Condensation efficiency (if applicable)",
+      "type": "Number (no  decimals)",
+      "length_range": "70 - 100",
+      "format": "xx"
+    },
+    {
+      "key": "condensationEfficiencyClass",
+      "field_name": "Condensation efficiency class (if applicable)",
+      "type": "List",
+      "length_range": "A - D",
+      "format": null
+    },
+    {
+      "key": "refrigerantName",
+      "field_name": "For household tumble dryers equipped with a heat pump, the chemical name or the accepted industry designation of the refrigerant gas used, without prejudice to Regulation (EU) No 517/2014 on fluorinated greenhouse gases",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    }
+  ],
+  "field_count": 35
+}

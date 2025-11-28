@@ -1,0 +1,167 @@
+{
+  "category_code": "HOUSEHOLD_WASHING_MACHINE",
+  "sheet_name": "Washing machines (1061-2010)",
+  "category_info": {
+    "code": "HOUSEHOLD_WASHING_MACHINE",
+    "url_code": "washingmachines",
+    "name": "Household washing machines",
+    "regulation": "Regulation (EU) 1061/2010"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "ratedCapacity",
+      "field_name": "Rated capacity",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - D",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "energyAnnual",
+      "field_name": "Annual Energy Consumption",
+      "type": "Number (No  decimals )",
+      "length_range": "1 - 9999",
+      "format": "###"
+    },
+    {
+      "key": "energyConsumption60FullLoad",
+      "field_name": "Energy Consumption (Et60)",
+      "type": "Number (3 decimal)",
+      "length_range": "0.001 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyConsumption60PartialLoad",
+      "field_name": "Energy Consumption (Et60 1/2)",
+      "type": "Number (3 decimal)",
+      "length_range": "0.001 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyConsumption40PartialLoad",
+      "field_name": "Energy Consumption (Et40 1/2)",
+      "type": "Number (3 decimal)",
+      "length_range": "0.001 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "powerConsumptionOffMode",
+      "field_name": "Power Consumption of the off-mode",
+      "type": "Number (2 decimal)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "powerConsumptionLeftOnMode",
+      "field_name": "Power Consumption of the left-on mode",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "waterAnnual",
+      "field_name": "Annual Water Consumption",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "spinDryingClass",
+      "field_name": "Spin-drying efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "maximumSpinSpeed",
+      "field_name": "Maximum Spin Speed",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "moisture",
+      "field_name": "Remaining moisture content attained",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "programmeTime60FullLoad",
+      "field_name": "Programme time of the \"standard 60 °C cotton programme\" at full load",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "programmeTime60PartialLoad",
+      "field_name": "Programme time of the \"standard 60 °C cotton programme\" at partial load",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "programmeTime40PartialLoad",
+      "field_name": "Programme time of the \"standard 40 °C cotton programme\" at partial load",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "leftOnModeDuration",
+      "field_name": "Duration of the left-on mode",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "noiseWashing",
+      "field_name": "Airborne acoustical noise emissions (Washing phase)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "noiseSpinning",
+      "field_name": "Airborne acoustical noise emissions (Spinning phase)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "builtIn",
+      "field_name": "Built-in",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    }
+  ],
+  "field_count": 22
+}

@@ -1,0 +1,216 @@
+{
+  "category_code": "TYRES",
+  "sheet_name": "Tyres (2020-740)",
+  "category_info": {
+    "code": "TYRES",
+    "url_code": "tyres",
+    "name": "Tyres",
+    "regulation": "Regulation (EU) 2020/740"
+  },
+  "fields": [
+    {
+      "key": "tyreClass",
+      "field_name": "Tyre class",
+      "type": "Radio button",
+      "length_range": "C1, C2, C3",
+      "format": null
+    },
+    {
+      "key": "tyreDesignation",
+      "field_name": "Tyre designation",
+      "type": "Text",
+      "length_range": "64",
+      "format": null
+    },
+    {
+      "key": "sizeDesignation",
+      "field_name": "Tyre size designation",
+      "type": "Text",
+      "length_range": "64",
+      "format": null
+    },
+    {
+      "key": "sizeDesignationFiltered",
+      "field_name": "Tyre size designation formated",
+      "type": "Text",
+      "length_range": "64",
+      "format": null
+    },
+    {
+      "key": "tyreSection",
+      "field_name": "Tyre section",
+      "type": "List",
+      "length_range": "125, 135, 145, 155, 165, 175, 180, 185, 190, 195, 200, 205, 210, 215, 220, 225, 230, 235, 240, 245, 250, 255, 260, 265, 270, 275, 280, 285, 295, 305, 315, 325, 335, 345, 355, 385, 420, 425, 435, 445, 455",
+      "format": null
+    },
+    {
+      "key": "aspectRatio",
+      "field_name": "Aspect ratio",
+      "type": "List",
+      "length_range": "25, 30, 35, 40, 45, 50, 55, 60, 75, 80, 90",
+      "format": null
+    },
+    {
+      "key": "rimDiameter",
+      "field_name": "Rim diameter",
+      "type": "List",
+      "length_range": "11, 12, 13, 14, 15, 16, 16.5, 17, 17.5, 18, 19, 19.5, 20, 20.5, 21, 22, 22.5, 23, 24, 24.5",
+      "format": null
+    },
+    {
+      "key": "loadCapacityIndex",
+      "field_name": "Load-capacity index",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 279",
+      "format": "###"
+    },
+    {
+      "key": "speedCategorySymbol",
+      "field_name": "Speed category symbol",
+      "type": "List",
+      "length_range": "F, G, J, K, L, M, N, P, Q, R, S, T, U, H, V, W, Y, (Y)",
+      "format": null
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Fuel efficiency class",
+      "type": "List",
+      "length_range": "A - E",
+      "format": null
+    },
+    {
+      "key": "wetGripClass",
+      "field_name": "Wet grip class",
+      "type": "List",
+      "length_range": "A - E",
+      "format": null
+    },
+    {
+      "key": "externalRollingNoiseClass",
+      "field_name": "External rolling noise class",
+      "type": "List",
+      "length_range": "A - C",
+      "format": null
+    },
+    {
+      "key": "externalRollingNoiseValue",
+      "field_name": "External rolling noise value",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "severeSnowTyre",
+      "field_name": "Severe snow tyre",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "iceTyre",
+      "field_name": "Ice tyre",
+      "type": "Boolean",
+      "length_range": "Yes/No",
+      "format": null
+    },
+    {
+      "key": "dateStartProductionWeek",
+      "field_name": "Date of start of production (Week)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 53",
+      "format": "##"
+    },
+    {
+      "key": "dateStartProductionYear",
+      "field_name": "Date of start of production (Year)",
+      "type": "Number (No decimals)",
+      "length_range": "0- 99",
+      "format": "##"
+    },
+    {
+      "key": "dateEndProductionWeek",
+      "field_name": "Date of end of production (Week)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 53",
+      "format": "##"
+    },
+    {
+      "key": "dateEndProductionYear",
+      "field_name": "Date of end of production (Year)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "commercialName",
+      "field_name": "Commercial name or trade designation",
+      "type": "Text",
+      "length_range": "256",
+      "format": null
+    },
+    {
+      "key": "loadCapacityIndicator",
+      "field_name": "Load version",
+      "type": "List",
+      "length_range": "LL, SL, XL, RF",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "loadCapacityIndex2",
+      "field_name": "Load-capacity index (Load index for Dual mounting)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 279",
+      "format": "###"
+    },
+    {
+      "key": "loadCapacityIndex3",
+      "field_name": "Load-capacity index (Single load index for Additional Service Description)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 279",
+      "format": "###"
+    },
+    {
+      "key": "loadCapacityIndex4",
+      "field_name": "Load-capacity index (Dual load index for Additional Service Description)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 279",
+      "format": "###"
+    },
+    {
+      "key": "speedCategorySymbol2",
+      "field_name": "Speed category symbol (for Additional Service Description)",
+      "type": "List",
+      "length_range": "F, G, J, K, L, M, N, P, Q, R, S, T, U, H",
+      "format": null
+    }
+  ],
+  "field_count": 29
+}

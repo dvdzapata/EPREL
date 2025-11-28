@@ -1,0 +1,300 @@
+{
+  "category_code": "ELECTRONIC_DISPLAY",
+  "sheet_name": "Electronic displays (2019-2013)",
+  "category_info": {
+    "code": "ELECTRONIC_DISPLAY",
+    "url_code": "electronicdisplays",
+    "name": "Electronic displays",
+    "regulation": "Regulation (EU) 2019/2013"
+  },
+  "fields": [
+    {
+      "key": "energyClassSDR",
+      "field_name": "Energy efficiency class for Standard Dynamic Range (SDR)",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "powerOnModeSDR",
+      "field_name": "On mode power demand for Standard Dynamic Range (SDR)",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "energyClassHDR",
+      "field_name": "Energy efficiency class in High Dynamic Range (HDR) mode",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "powerOnModeHDR",
+      "field_name": "On mode power demand in High Dynamic Range (HDR) mode",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "powerOffMode",
+      "field_name": "Off mode, power demand",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 9.9",
+      "format": "#.#"
+    },
+    {
+      "key": "powerStandby",
+      "field_name": "Standby mode power demand",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 9.9",
+      "format": "#.#"
+    },
+    {
+      "key": "powerStandbyNetworked",
+      "field_name": "Networked standby mode power demand",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 9.9",
+      "format": "#.#"
+    },
+    {
+      "key": "category",
+      "field_name": "Electronic display category",
+      "type": "List",
+      "length_range": "TELEVISION, MONITOR, SIGNAGE, OTHER",
+      "format": null
+    },
+    {
+      "key": "sizeRatioX",
+      "field_name": "Size ratio (X)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "sizeRatioY",
+      "field_name": "Size ratio (Y)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "resolutionHorizontalPixels",
+      "field_name": "Screen horizontal resolution (pixels)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "resolutionVerticalPixels",
+      "field_name": "Screen vertical resolution (pixels)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "diagonalCm",
+      "field_name": "Screen diagonal (cm)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "diagonalInch",
+      "field_name": "Screen diagonal (inch)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "calculatedDiagonalInch",
+      "field_name": "Screen diagonal (inch)",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "visibleArea",
+      "field_name": "Visible screen area",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99999.9",
+      "format": "#####.#"
+    },
+    {
+      "key": "visibleAreaV2",
+      "field_name": "Visible screen area",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 99999.9",
+      "format": "#####.#"
+    },
+    {
+      "key": "panelTechnology",
+      "field_name": "Panel technology used",
+      "type": "List",
+      "length_range": "LCD, LED LCD, QLED LCD, OLED, MicroLED, QDLED, SED, FED, EPD, OTHER",
+      "format": null
+    },
+    {
+      "key": "panelTechnologyOther",
+      "field_name": "Panel technology used (Other)",
+      "type": "Text",
+      "length_range": "32",
+      "format": null
+    },
+    {
+      "key": "autoBrightnessControlAvailable",
+      "field_name": "Automatic Brightness Control (ABC) available",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "voiceAvailable",
+      "field_name": "Voice recognition sensor available",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "roomPresenceAvailable",
+      "field_name": "Room presence sensor available",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "frequencyRate",
+      "field_name": "Image refresh frequency rate",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "minAvailabilitySoftwareUpdates",
+      "field_name": "Minimum guaranteed availability of software and firmware updates (until)",
+      "type": "Date",
+      "length_range": "99/99/9999",
+      "format": "DD/MM/YYYY"
+    },
+    {
+      "key": "minAvailabilitySoftwareUpdatesTS",
+      "field_name": "Minimum guaranteed availability of software and firmware updates (until) (Timestamp)",
+      "type": "Date",
+      "length_range": "Timestamp",
+      "format": null
+    },
+    {
+      "key": "minAvailabilitySoftwareUpdatesYears",
+      "field_name": "Minimum guaranteed availability of software and firmware updates (from the date of end of the placement on the market)",
+      "type": "Number (No decimal)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "minAvailabilitySpareParts",
+      "field_name": "Minimum guaranteed availability of spare parts (until)",
+      "type": "Date",
+      "length_range": "99/99/9999",
+      "format": "DD/MM/YYYY"
+    },
+    {
+      "key": "minAvailabilitySparePartsTS",
+      "field_name": "Minimum guaranteed availability of spare parts (until) (Timestamp)",
+      "type": "Date",
+      "length_range": "Timestamp",
+      "format": null
+    },
+    {
+      "key": "minAvailabilitySparePartsYears",
+      "field_name": "Minimum guaranteed availability of spare parts (from the date of end of the placement on the market)",
+      "type": "Number (No decimal)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "minGuaranteedSupport",
+      "field_name": "Minimum guaranteed product support (until)",
+      "type": "Date",
+      "length_range": "99/99/9999",
+      "format": "DD/MM/YYYY"
+    },
+    {
+      "key": "minGuaranteedSupportTS",
+      "field_name": "Minimum guaranteed product support (until) (Timestamp)",
+      "type": "Date",
+      "length_range": "Timestamp",
+      "format": null
+    },
+    {
+      "key": "minGuaranteedSupportYears",
+      "field_name": "Minimum guaranteed product support",
+      "type": "Number (No decimal)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "minGuaranteedGuarantee",
+      "field_name": "Minimum duration of the general guarantee offered by the supplier",
+      "type": "Number (No decimal)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "powerSupplyType",
+      "field_name": "Power supply type",
+      "type": "List",
+      "length_range": "INTERNAL, EXTERNAL, STANDARD_EXTERNAL",
+      "format": null
+    },
+    {
+      "key": "externalStandardPowerIncludedName",
+      "field_name": "Standard name",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "externalStandardPowerIncludedInput",
+      "field_name": "Input voltage",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "externalStandardPowerIncludedOutput",
+      "field_name": "Output voltage",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "externalStandardPowerExcludedName",
+      "field_name": "Standard name",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "externalStandardPowerExcludedOutput",
+      "field_name": "Required output voltage",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "externalStandardPowerExcludedCurrent",
+      "field_name": "Required delivered current",
+      "type": "Number (2 decimal)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "externalStandardPowerExcludedFrequency",
+      "field_name": "Required current frequency",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99",
+      "format": "##"
+    }
+  ],
+  "field_count": 41
+}

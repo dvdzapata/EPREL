@@ -1,0 +1,34 @@
+{
+  "category_code": "LAMP",
+  "sheet_name": "Lamps (874-2012)",
+  "category_info": {
+    "code": "LAMP",
+    "url_code": "lamps",
+    "name": "Electrical Lamps",
+    "regulation": "Regulation (EU) 874/2012"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A++ - E",
+      "format": null
+    },
+    {
+      "key": "weightedEnergyConsumption",
+      "field_name": "Weighted Energy Consumption (Ec)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    }
+  ],
+  "field_count": 3
+}

@@ -1,0 +1,104 @@
+{
+  "category_code": "WATER_HEATER_PACKAGE",
+  "sheet_name": "Water heaters Packag (812-2013)",
+  "category_info": {
+    "code": "WATER_HEATER_PACKAGE",
+    "url_code": "waterheaterpackages",
+    "name": "Packages of water heaters",
+    "regulation": "Regulation (EU) 812/2013"
+  },
+  "fields": [
+    {
+      "key": "solarCollectorIncluded",
+      "field_name": "Solar collector included",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "waterStorageTankIncluded",
+      "field_name": "Hot water storage tank included",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "packageWaterHeatingEfficiency",
+      "field_name": "Water heating energy efficiency of package (Average climate conditions)",
+      "type": "Number (No decimals)  ",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Water heating energy efficiency class of package (Average climate conditions)",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "packageLoadProfile",
+      "field_name": "Load profile of package",
+      "type": "List",
+      "length_range": "M, L, XL, XXL",
+      "format": null
+    },
+    {
+      "key": "packageWaterHeatingEfficiencyCold",
+      "field_name": "Water heating energy efficiency of package (Colder climate conditions)",
+      "type": "Number (No decimals)  ",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "packageWaterHeatingEfficiencyWarm",
+      "field_name": "Water heating energy efficiency of package (Warmer climate conditions)",
+      "type": "Number (No decimals)  ",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeaterHeatingEfficiency",
+      "field_name": "Water heating energy efficiency of water heater",
+      "type": "Number (No decimals)  ",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "waterHeaterEnergyClass",
+      "field_name": "Water heating energy efficiency class of the water heater",
+      "type": "List",
+      "length_range": "A+ - G",
+      "format": null
+    },
+    {
+      "key": "waterHeaterLoadProfile",
+      "field_name": "Declared load profile",
+      "type": "List",
+      "length_range": "3XS, XXS, XS, S, M, L, XL, XXL",
+      "format": null
+    },
+    {
+      "key": "solarContribution",
+      "field_name": "Solar contribution",
+      "type": "Number (2 decimals)  ",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "waterHeaterMathExprII",
+      "field_name": "Value of II: (220 x Qref)/Qnonsol",
+      "type": "Number (2 decimals)  ",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "waterHeaterMathExprIII",
+      "field_name": "Value of III: (Qaux x 2.5)/(220 x Qref)",
+      "type": "Number (2 decimals)  ",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    }
+  ],
+  "field_count": 13
+}

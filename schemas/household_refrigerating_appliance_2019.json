@@ -1,0 +1,398 @@
+{
+  "category_code": "HOUSEHOLD_REFRIGERATING_APPLIANCE_2019",
+  "sheet_name": "Refrig appliances (2019-2016)",
+  "category_info": {
+    "code": "HOUSEHOLD_REFRIGERATING_APPLIANCE_2019",
+    "url_code": "refrigeratingappliances2019",
+    "name": "Refrigerating appliances",
+    "regulation": "Regulation (EU) 2019/2016"
+  },
+  "fields": [
+    {
+      "key": "lowNoiseAppliance",
+      "field_name": "Low-noise appliance",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "wineStorageAppliance",
+      "field_name": "Wine storage appliance",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "otherRefrigeratingAppliance",
+      "field_name": "Other refrigerating appliance",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "designType",
+      "field_name": "Design type",
+      "type": "List",
+      "length_range": "BUILT_IN, FREE_STANDING",
+      "format": null
+    },
+    {
+      "key": "dimensionHeight",
+      "field_name": "Overall dimensions (Height)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "dimensionWidth",
+      "field_name": "Overall dimensions (Width)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "dimensionDepth",
+      "field_name": "Overall dimensions (Depth)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "totalVolume",
+      "field_name": "Total volume",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyEfficiencyIndex",
+      "field_name": "Energy efficiency Index (EEI)",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "noise",
+      "field_name": "Airborne acoustical noise emissions",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 99",
+      "format": "##"
+    },
+    {
+      "key": "noiseClass",
+      "field_name": "Airborne acoustical noise emission class",
+      "type": "List",
+      "length_range": "A - D",
+      "format": null
+    },
+    {
+      "key": "energyConsAnnual",
+      "field_name": "Annual energy consumption",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 9999.99",
+      "format": "####.##"
+    },
+    {
+      "key": "energyConsAnnualV2",
+      "field_name": "Annual energy consumption",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "consolidatedEnergyConsAnnual",
+      "field_name": "Annual energy consumption",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 9999.99",
+      "format": "####.##"
+    },
+    {
+      "key": "climateClassSN",
+      "field_name": "Climate class (SN)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "climateClassST",
+      "field_name": "Climate class (ST)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "climateClassT",
+      "field_name": "Climate class (T)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "climateClassN",
+      "field_name": "Climate class (N)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "minAmbientTemp",
+      "field_name": "Minimum ambient temperature for which the refrigerating appliance is suitable",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "maxAmbientTemp",
+      "field_name": "Maximum ambient temperature for which the refrigerating appliance is suitable",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "winterSetting",
+      "field_name": "Winter setting",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "capFreezeNet",
+      "field_name": "Sum of the volumes of the frozen compartment(s)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "capRefrNet",
+      "field_name": "Sum of the volumes of the chill compartment(s) and the unfrozen compartment(s)",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "capBottles",
+      "field_name": "Number of standard wine bottles that can be stored in the wine storage appliance",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "lightTechnology",
+      "field_name": "Lighting technology used",
+      "type": "List",
+      "length_range": "HL, LFL_T5_HE, LFL_T5_HO, CFLNI, OTHER_FL, HPS, MH, OTHER_HID, LED, OLED, MIXED, OTHER",
+      "format": null
+    },
+    {
+      "key": "lightDirectionality",
+      "field_name": "Non-directional or directional",
+      "type": "List",
+      "length_range": "NDLS, DLS",
+      "format": null
+    },
+    {
+      "key": "lightMains",
+      "field_name": "Mains or non-mains",
+      "type": "List",
+      "length_range": "MLS, NMLS",
+      "format": null
+    },
+    {
+      "key": "lightConnected",
+      "field_name": "Connected light source (CLS)",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "lightColourTuneable",
+      "field_name": "Colour-tuneable light source",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "lightEnvelop",
+      "field_name": "Envelope",
+      "type": "List",
+      "length_range": "NO, SECOND, NON_CLEAR",
+      "format": null
+    },
+    {
+      "key": "lightHighLuminance",
+      "field_name": "High luminance light source",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "lightAntiGlareShield",
+      "field_name": "Anti-glare shield",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "lightDimmable",
+      "field_name": "Dimmable",
+      "type": "List",
+      "length_range": "YES, NO, SPECIFIC",
+      "format": null
+    },
+    {
+      "key": "lightSourceClass",
+      "field_name": "Energy efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "guaranteeDuration",
+      "field_name": "Minimum duration of the guarantee offered by the manufacturer",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 999",
+      "format": "###"
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "language",
+      "field_name": "Language",
+      "type": "List",
+      "length_range": "BG,\nCS,\nDA,\nDE,\nET,\nEL,\nEN,\nES,\nFR,\nGA,\nHR,\nIT,\nLV,\nLT,\nHU,\nMT,\nNL,\nPL,\nPT,\nRO,\nSK,\nSL,\nFI,\nSV",
+      "format": null
+    },
+    {
+      "key": "text",
+      "field_name": "Text",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "webLinkManufacturer",
+      "field_name": "Weblink to the manufacturer’s website",
+      "type": "Text",
+      "length_range": "1024",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "compartmentType",
+      "field_name": "Compartment type",
+      "type": "List",
+      "length_range": "PANTRY, WINE_STORAGE, CELLAR, FRESH_FOOD,\nCHILL, ZERO_STAR, ONE_STAR, TWO_STAR,\nTHREE_STAR, FOUR_STAR, TWO_STAR_SECTION, VARIABLE_TEMP",
+      "format": null
+    },
+    {
+      "key": "volume",
+      "field_name": "Compartment Volume",
+      "type": "Number (1 decimals)",
+      "length_range": "0.1 -9 999.9",
+      "format": "####.#"
+    },
+    {
+      "key": "defrostingType",
+      "field_name": "Defrosting type",
+      "type": "List",
+      "length_range": "A, M",
+      "format": null
+    },
+    {
+      "key": "id",
+      "field_name": "Id",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "orderNumber",
+      "field_name": "Order number",
+      "type": "Number",
+      "length_range": null,
+      "format": null
+    },
+    {
+      "key": "compartmentType",
+      "field_name": "Compartment sub-type",
+      "type": "List",
+      "length_range": "PANTRY, WINE_STORAGE, CELLAR, FRESH_FOOD,\nCHILL, ZERO_STAR, ONE_STAR, TWO_STAR,\nTHREE_STAR, FOUR_STAR",
+      "format": null
+    },
+    {
+      "key": "recommendedTemp",
+      "field_name": "Recommended temperature setting for optimised food storage",
+      "type": "Number (No decimals)",
+      "length_range": "-99 - 99",
+      "format": "##"
+    },
+    {
+      "key": "capFreezing",
+      "field_name": "Freezing capacity",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 99.99",
+      "format": "##.##"
+    },
+    {
+      "key": "capFreezingV2",
+      "field_name": "Freezing capacity",
+      "type": "Number (1 decimals)",
+      "length_range": "0.0 - 99.9",
+      "format": "##.#"
+    },
+    {
+      "key": "fastFreeze",
+      "field_name": "Fast freeze facility",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    }
+  ],
+  "field_count": 55
+}

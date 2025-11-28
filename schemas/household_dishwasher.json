@@ -1,0 +1,118 @@
+{
+  "category_code": "HOUSEHOLD_DISHWASHER",
+  "sheet_name": "Household dishwash (1059-2010)",
+  "category_info": {
+    "code": "HOUSEHOLD_DISHWASHER",
+    "url_code": "dishwashers",
+    "name": "Household dishwashers",
+    "regulation": "Regulation (EU) 1059/2010"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "ratedCapacity",
+      "field_name": "Rated capacity",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 100",
+      "format": "###"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - D",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "energyAnnual",
+      "field_name": "Annual Energy Consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 999",
+      "format": "###"
+    },
+    {
+      "key": "energyConsumptionStandardCycle",
+      "field_name": "Energy Consumption of the standard cleaning cycle",
+      "type": "Number (3  decimals)",
+      "length_range": "0.001 - 999.999",
+      "format": "###.###"
+    },
+    {
+      "key": "energyConsumptionOffMode",
+      "field_name": "Power consumption in off-mode",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "energyConsumptionLeftOnMode",
+      "field_name": "Power consumption in left-on mode",
+      "type": "Number (2 decimals)",
+      "length_range": "0.01 - 999.99",
+      "format": "###.##"
+    },
+    {
+      "key": "waterAnnual",
+      "field_name": "Annual Water Consumption",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "dryingClass",
+      "field_name": "Drying efficiency class",
+      "type": "List",
+      "length_range": "A - G",
+      "format": null
+    },
+    {
+      "key": "cycleTime",
+      "field_name": "Programme time for the standard cleaning cycle",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "leftOnModeDuration",
+      "field_name": "Duration of the left-on mode",
+      "type": "Number (No decimals)",
+      "length_range": "0 - 1000",
+      "format": "####"
+    },
+    {
+      "key": "noise",
+      "field_name": "Airborne acoustical noise emissions",
+      "type": "Number (No decimals)",
+      "length_range": "1 - 99",
+      "format": "##"
+    },
+    {
+      "key": "builtIn",
+      "field_name": "Built-in",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    }
+  ],
+  "field_count": 15
+}

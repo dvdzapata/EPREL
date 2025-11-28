@@ -1,0 +1,111 @@
+{
+  "category_code": "TELEVISION",
+  "sheet_name": "Televisions (1062-2010)",
+  "category_info": {
+    "code": "TELEVISION",
+    "url_code": "televisions",
+    "name": "Televisions",
+    "regulation": "Regulation (EU) 1062/2010"
+  },
+  "fields": [
+    {
+      "key": "Model",
+      "field_name": "Field",
+      "type": "Type",
+      "length_range": "Length/Range",
+      "format": "Format"
+    },
+    {
+      "key": "energyClass",
+      "field_name": "Energy Efficiency Class",
+      "type": "List",
+      "length_range": "A+++ - G",
+      "format": null
+    },
+    {
+      "key": "energyClassRange",
+      "field_name": "Scale",
+      "type": "List",
+      "length_range": "A++ - E, A+++ - D",
+      "format": null
+    },
+    {
+      "key": "ecoLabel",
+      "field_name": "EU eco-label",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    },
+    {
+      "key": "ecoLabelRegistrationNumber",
+      "field_name": "EU eco-label Registration Number",
+      "type": "Text",
+      "length_range": "128",
+      "format": null
+    },
+    {
+      "key": "diagonalCentimeter",
+      "field_name": "Screen diagonal (cm)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "diagonalInch",
+      "field_name": "Screen diagonal (inch)",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 999.9",
+      "format": "###.#"
+    },
+    {
+      "key": "energyConsumption",
+      "field_name": "on-mode power consumption",
+      "type": "Number (1 decimal)",
+      "length_range": "0.1 - 9999.9",
+      "format": "####.##"
+    },
+    {
+      "key": "energyAnnual",
+      "field_name": "annual energy consumption",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 9999",
+      "format": "####"
+    },
+    {
+      "key": "horizontalResolution",
+      "field_name": "screen horizontal resolution",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "verticalResolution",
+      "field_name": "screen vertical resolution",
+      "type": "Number (No decimal)",
+      "length_range": "1 - 99999",
+      "format": "#####"
+    },
+    {
+      "key": "energyConsumptionOffMode",
+      "field_name": "off-mode power consumption",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 9.99",
+      "format": "#.##"
+    },
+    {
+      "key": "energyConsumptionStandbyMode",
+      "field_name": "standby power consumption",
+      "type": "Number (2 decimals)",
+      "length_range": "0.00 - 9.99",
+      "format": "#.##"
+    },
+    {
+      "key": "visibleSwitch",
+      "field_name": "visible switch",
+      "type": "Boolean",
+      "length_range": "TRUE/FALSE",
+      "format": null
+    }
+  ],
+  "field_count": 14
+}
