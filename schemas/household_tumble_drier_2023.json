@@ -19,14 +19,14 @@
       "key": "ratedCapacity",
       "field_name": "Rated capacity",
       "type": "Number (1 decimal)",
-      "length_range": "1,0 - 99,9 ",
+      "length_range": "1,0 - 99,9",
       "format": "x,x"
     },
     {
       "key": "dimensionHeight",
       "field_name": "Dimensions (Height)",
       "type": "Number (No decimals)",
-      "length_range": "30 - 250 ",
+      "length_range": "30 - 250",
       "format": "x"
     },
     {
@@ -79,13 +79,6 @@
       "format": "x,xx"
     },
     {
-      "key": "type",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": "BUILT_IN, \nFREE_STANDING",
-      "format": null
-    },
-    {
       "key": "noise",
       "field_name": "Acoustic airborne noise emission (dB(A) re 1 pW)",
       "type": "Number",
@@ -108,7 +101,7 @@
     },
     {
       "key": "powerStandbyMode",
-      "field_name": "Standby mode (if applicable) ",
+      "field_name": "Standby mode (if applicable)",
       "type": "Number (2  decimals)",
       "length_range": "0,00 - 1,00",
       "format": "x,xx"
@@ -136,7 +129,7 @@
     },
     {
       "key": "repairabilityIndex",
-      "field_name": "\tRepairability Index",
+      "field_name": "Repairability Index",
       "type": "Number (2  decimals)",
       "length_range": "1,00 - 10,00",
       "format": "x,xx"
@@ -254,5 +247,5 @@
       "format": null
     }
   ],
-  "field_count": 35
+  "field_count": 34
 }

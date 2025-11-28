@@ -296,13 +296,6 @@
       "format": null
     },
     {
-      "key": "designType",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": "BUILT_IN, FREE_STANDING",
-      "format": null
-    },
-    {
       "key": "powerOffMode",
       "field_name": "Off-mode",
       "type": "Number (2 decimals)",
@@ -380,5 +373,5 @@
       "format": null
     }
   ],
-  "field_count": 53
+  "field_count": 52
 }

@@ -9,13 +9,6 @@
   },
   "fields": [
     {
-      "key": "complexType",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": null,
-      "format": null
-    },
-    {
       "key": "energyClass",
       "field_name": "Water heating energy efficiency class",
       "type": "List",
@@ -136,7 +129,7 @@
     },
     {
       "key": "declatedLoadProfileWaterHeatingAnnualElectricityCons",
-      "field_name": "Annual electricity consumption ",
+      "field_name": "Annual electricity consumption",
       "type": "Number (No decimals)",
       "length_range": "1 - 999999",
       "format": "######"
@@ -171,7 +164,7 @@
     },
     {
       "key": "waterHeatingAnnualElectricityCons",
-      "field_name": "Annual electricity consumption ",
+      "field_name": "Annual electricity consumption",
       "type": "Number (No decimals)",
       "length_range": "1 - 999999",
       "format": "######"
@@ -248,7 +241,7 @@
     },
     {
       "key": "waterHeatingAnnualElectricityCons",
-      "field_name": "Annual electricity consumption ",
+      "field_name": "Annual electricity consumption",
       "type": "Number (No decimals)",
       "length_range": "1 - 999999",
       "format": "######"
@@ -303,5 +296,5 @@
       "format": null
     }
   ],
-  "field_count": 42
+  "field_count": 41
 }

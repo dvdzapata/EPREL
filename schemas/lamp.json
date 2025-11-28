@@ -9,13 +9,6 @@
   },
   "fields": [
     {
-      "key": "Model",
-      "field_name": "Field",
-      "type": "Type",
-      "length_range": "Length/Range",
-      "format": "Format"
-    },
-    {
       "key": "energyClass",
       "field_name": "Energy Efficiency Class",
       "type": "List",
@@ -30,5 +23,5 @@
       "format": "#####"
     }
   ],
-  "field_count": 3
+  "field_count": 2
 }

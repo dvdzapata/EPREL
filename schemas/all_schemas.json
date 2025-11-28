@@ -108,13 +108,6 @@
         "format": "####"
       },
       {
-        "key": "type",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "BUILT_IN, FREE_STANDING",
-        "format": null
-      },
-      {
         "key": "noise",
         "field_name": "Airborne acoustical noise emissions",
         "type": "Number (No decimals)",
@@ -199,7 +192,7 @@
         "format": null
       }
     ],
-    "field_count": 27
+    "field_count": 26
   },
   "HOUSEHOLD_WASHING_MACHINE_2019": {
     "category_code": "HOUSEHOLD_WASHING_MACHINE_2019",
@@ -394,13 +387,6 @@
         "format": "####"
       },
       {
-        "key": "type",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "BUILT_IN, FREE_STANDING",
-        "format": null
-      },
-      {
         "key": "noise",
         "field_name": "Airborne acoustical noise emissions (spinning phase)",
         "type": "Number (No decimals)",
@@ -492,7 +478,7 @@
         "format": null
       }
     ],
-    "field_count": 40
+    "field_count": 39
   },
   "HOUSEHOLD_WASHER_DRYER_2019": {
     "category_code": "HOUSEHOLD_WASHER_DRYER_2019",
@@ -792,13 +778,6 @@
         "format": null
       },
       {
-        "key": "designType",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "BUILT_IN, FREE_STANDING",
-        "format": null
-      },
-      {
         "key": "powerOffMode",
         "field_name": "Off-mode",
         "type": "Number (2 decimals)",
@@ -876,7 +855,7 @@
         "format": null
       }
     ],
-    "field_count": 53
+    "field_count": 52
   },
   "HOUSEHOLD_TUMBLE_DRIER_2023": {
     "category_code": "HOUSEHOLD_TUMBLE_DRIER_2023",
@@ -899,14 +878,14 @@
         "key": "ratedCapacity",
         "field_name": "Rated capacity",
         "type": "Number (1 decimal)",
-        "length_range": "1,0 - 99,9 ",
+        "length_range": "1,0 - 99,9",
         "format": "x,x"
       },
       {
         "key": "dimensionHeight",
         "field_name": "Dimensions (Height)",
         "type": "Number (No decimals)",
-        "length_range": "30 - 250 ",
+        "length_range": "30 - 250",
         "format": "x"
       },
       {
@@ -959,13 +938,6 @@
         "format": "x,xx"
       },
       {
-        "key": "type",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "BUILT_IN, \nFREE_STANDING",
-        "format": null
-      },
-      {
         "key": "noise",
         "field_name": "Acoustic airborne noise emission (dB(A) re 1 pW)",
         "type": "Number",
@@ -988,7 +960,7 @@
       },
       {
         "key": "powerStandbyMode",
-        "field_name": "Standby mode (if applicable) ",
+        "field_name": "Standby mode (if applicable)",
         "type": "Number (2  decimals)",
         "length_range": "0,00 - 1,00",
         "format": "x,xx"
@@ -1016,7 +988,7 @@
       },
       {
         "key": "repairabilityIndex",
-        "field_name": "\tRepairability Index",
+        "field_name": "Repairability Index",
         "type": "Number (2  decimals)",
         "length_range": "1,00 - 10,00",
         "format": "x,xx"
@@ -1134,7 +1106,7 @@
         "format": null
       }
     ],
-    "field_count": 35
+    "field_count": 34
   },
   "HOUSEHOLD_REFRIGERATING_APPLIANCE_2019": {
     "category_code": "HOUSEHOLD_REFRIGERATING_APPLIANCE_2019",
@@ -2749,7 +2721,7 @@
         "key": "operatingSystem",
         "field_name": "Operating system",
         "type": "List",
-        "length_range": "\t\nANDROID, IOS, OTHER",
+        "length_range": "ANDROID, IOS, OTHER",
         "format": null
       },
       {
@@ -2859,7 +2831,7 @@
       },
       {
         "key": "minYearsSoftwareUpdates",
-        "field_name": "\tMinimum guaranteed availability of operating system security updates, corrective updates and functionality updates",
+        "field_name": "Minimum guaranteed availability of operating system security updates, corrective updates and functionality updates",
         "type": "Number (no decimals)",
         "length_range": "1999-05-01 00:00:00",
         "format": "#"
@@ -2873,7 +2845,7 @@
       },
       {
         "key": "repairabilityIndex",
-        "field_name": "\tRepairability Index",
+        "field_name": "Repairability Index",
         "type": "Number (2  decimals)",
         "length_range": "1,00 - 5,00",
         "format": "x,xx"
@@ -4390,13 +4362,6 @@
         "format": null
       },
       {
-        "key": "type",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "BOILER, COGENERATORION, HEAT_PUMP, LOW_TEMPERATURE_HEAT_PUMP",
-        "format": null
-      },
-      {
         "key": "seasonalSpaceHeatingEnergyEfficiency",
         "field_name": "Seasonal space heating energy efficiency \n\nSpace heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nSeasonal space heating energy efficiency (average climate conditions - Low-temperature)",
         "type": "Number (No decimals)",
@@ -4475,7 +4440,7 @@
       },
       {
         "key": "ratedHeatOutput",
-        "field_name": "Rated heat output ",
+        "field_name": "Rated heat output",
         "type": "Number (No decimals)",
         "length_range": "1 - 99",
         "format": "##"
@@ -4936,7 +4901,7 @@
         "format": "####"
       }
     ],
-    "field_count": 79
+    "field_count": 78
   },
   "SPACE_HEATER_PACKAGE": {
     "category_code": "SPACE_HEATER_PACKAGE",
@@ -5098,7 +5063,7 @@
       {
         "key": "heatPumpSeasonalHeatingEnergyEfficiency",
         "field_name": "Supplementary heat pump seasonal space heating energy efficiency",
-        "type": "Number (No decimals)    ",
+        "type": "Number (No decimals)",
         "length_range": "1 - 999",
         "format": "###"
       },
@@ -5373,13 +5338,6 @@
     },
     "fields": [
       {
-        "key": "complexType",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": null,
-        "format": null
-      },
-      {
         "key": "energyClass",
         "field_name": "Water heating energy efficiency class",
         "type": "List",
@@ -5500,7 +5458,7 @@
       },
       {
         "key": "declatedLoadProfileWaterHeatingAnnualElectricityCons",
-        "field_name": "Annual electricity consumption ",
+        "field_name": "Annual electricity consumption",
         "type": "Number (No decimals)",
         "length_range": "1 - 999999",
         "format": "######"
@@ -5535,7 +5493,7 @@
       },
       {
         "key": "waterHeatingAnnualElectricityCons",
-        "field_name": "Annual electricity consumption ",
+        "field_name": "Annual electricity consumption",
         "type": "Number (No decimals)",
         "length_range": "1 - 999999",
         "format": "######"
@@ -5612,7 +5570,7 @@
       },
       {
         "key": "waterHeatingAnnualElectricityCons",
-        "field_name": "Annual electricity consumption ",
+        "field_name": "Annual electricity consumption",
         "type": "Number (No decimals)",
         "length_range": "1 - 999999",
         "format": "######"
@@ -5667,7 +5625,7 @@
         "format": null
       }
     ],
-    "field_count": 42
+    "field_count": 41
   },
   "WATER_HEATER_PACKAGE": {
     "category_code": "WATER_HEATER_PACKAGE",
@@ -5696,7 +5654,7 @@
       {
         "key": "packageWaterHeatingEfficiency",
         "field_name": "Water heating energy efficiency of package (Average climate conditions)",
-        "type": "Number (No decimals)  ",
+        "type": "Number (No decimals)",
         "length_range": "1 - 999",
         "format": "###"
       },
@@ -5717,21 +5675,21 @@
       {
         "key": "packageWaterHeatingEfficiencyCold",
         "field_name": "Water heating energy efficiency of package (Colder climate conditions)",
-        "type": "Number (No decimals)  ",
+        "type": "Number (No decimals)",
         "length_range": "1 - 999",
         "format": "###"
       },
       {
         "key": "packageWaterHeatingEfficiencyWarm",
         "field_name": "Water heating energy efficiency of package (Warmer climate conditions)",
-        "type": "Number (No decimals)  ",
+        "type": "Number (No decimals)",
         "length_range": "1 - 999",
         "format": "###"
       },
       {
         "key": "waterHeaterHeatingEfficiency",
         "field_name": "Water heating energy efficiency of water heater",
-        "type": "Number (No decimals)  ",
+        "type": "Number (No decimals)",
         "length_range": "1 - 999",
         "format": "###"
       },
@@ -5752,21 +5710,21 @@
       {
         "key": "solarContribution",
         "field_name": "Solar contribution",
-        "type": "Number (2 decimals)  ",
+        "type": "Number (2 decimals)",
         "length_range": "0.01 - 999.99",
         "format": "###.##"
       },
       {
         "key": "waterHeaterMathExprII",
         "field_name": "Value of II: (220 x Qref)/Qnonsol",
-        "type": "Number (2 decimals)  ",
+        "type": "Number (2 decimals)",
         "length_range": "0.00 - 999.99",
         "format": "###.##"
       },
       {
         "key": "waterHeaterMathExprIII",
         "field_name": "Value of III: (Qaux x 2.5)/(220 x Qref)",
-        "type": "Number (2 decimals)  ",
+        "type": "Number (2 decimals)",
         "length_range": "0.00 - 999.99",
         "format": "###.##"
       }
@@ -6221,13 +6179,6 @@
     },
     "fields": [
       {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
-      {
         "key": "ratedCapacity",
         "field_name": "Rated capacity",
         "type": "Number (No decimals)",
@@ -6326,7 +6277,7 @@
         "format": null
       }
     ],
-    "field_count": 15
+    "field_count": 14
   },
   "HOUSEHOLD_WASHING_MACHINE": {
     "category_code": "HOUSEHOLD_WASHING_MACHINE",
@@ -6338,13 +6289,6 @@
       "regulation": "Regulation (EU) 1061/2010"
     },
     "fields": [
-      {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
       {
         "key": "ratedCapacity",
         "field_name": "Rated capacity",
@@ -6493,7 +6437,7 @@
         "format": null
       }
     ],
-    "field_count": 22
+    "field_count": 21
   },
   "HOUSEHOLD_COMBINED_WASHER_DRIER": {
     "category_code": "HOUSEHOLD_COMBINED_WASHER_DRIER",
@@ -6505,13 +6449,6 @@
       "regulation": "Regulation 96/60/EC"
     },
     "fields": [
-      {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
       {
         "key": "energyClass",
         "field_name": "Energy Efficiency Class",
@@ -6681,7 +6618,7 @@
         "format": "####"
       }
     ],
-    "field_count": 25
+    "field_count": 24
   },
   "HOUSEHOLD_TUMBLE_DRIER": {
     "category_code": "HOUSEHOLD_TUMBLE_DRIER",
@@ -6694,25 +6631,11 @@
     },
     "fields": [
       {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
-      {
         "key": "capacityCotton",
         "field_name": "Rated capacity",
         "type": "Number (1 decimal)",
         "length_range": "0.1 - 99.9",
         "format": "#.#"
-      },
-      {
-        "key": "type",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "AIRVENTED, CONDENSER, GASFIRED",
-        "format": null
       },
       {
         "key": "energyClass",
@@ -6883,7 +6806,7 @@
         "format": "###.##"
       }
     ],
-    "field_count": 27
+    "field_count": 25
   },
   "HOUSEHOLD_REFRIGERATING_APPLIANCE": {
     "category_code": "HOUSEHOLD_REFRIGERATING_APPLIANCE",
@@ -6895,13 +6818,6 @@
       "regulation": "Regulation (EU) 1060/2010"
     },
     "fields": [
-      {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
       {
         "key": "category",
         "field_name": "Category",
@@ -7043,13 +6959,6 @@
         "format": null
       },
       {
-        "key": "type",
-        "field_name": "Type",
-        "type": "List",
-        "length_range": "CELLAR, CHILL, FOUR_STAR, FRESH_FOOD_STORAGE,\nONE_STAR, OTHER, THREE_STAR, TWO_STAR,\nWINE_STORAGE, ZERO_STAR",
-        "format": null
-      },
-      {
         "key": "capacity",
         "field_name": "Storage Volume",
         "type": "Number (No decimals)",
@@ -7085,7 +6994,7 @@
         "format": null
       }
     ],
-    "field_count": 27
+    "field_count": 25
   },
   "LAMP": {
     "category_code": "LAMP",
@@ -7097,13 +7006,6 @@
       "regulation": "Regulation (EU) 874/2012"
     },
     "fields": [
-      {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
       {
         "key": "energyClass",
         "field_name": "Energy Efficiency Class",
@@ -7119,7 +7021,7 @@
         "format": "#####"
       }
     ],
-    "field_count": 3
+    "field_count": 2
   },
   "TELEVISION": {
     "category_code": "TELEVISION",
@@ -7131,13 +7033,6 @@
       "regulation": "Regulation (EU) 1062/2010"
     },
     "fields": [
-      {
-        "key": "Model",
-        "field_name": "Field",
-        "type": "Type",
-        "length_range": "Length/Range",
-        "format": "Format"
-      },
       {
         "key": "energyClass",
         "field_name": "Energy Efficiency Class",
@@ -7230,6 +7125,6 @@
         "format": null
       }
     ],
-    "field_count": 14
+    "field_count": 13
   }
 }

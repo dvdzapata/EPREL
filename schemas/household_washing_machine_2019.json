@@ -191,13 +191,6 @@
       "format": "####"
     },
     {
-      "key": "type",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": "BUILT_IN, FREE_STANDING",
-      "format": null
-    },
-    {
       "key": "noise",
       "field_name": "Airborne acoustical noise emissions (spinning phase)",
       "type": "Number (No decimals)",
@@ -289,5 +282,5 @@
       "format": null
     }
   ],
-  "field_count": 40
+  "field_count": 39
 }

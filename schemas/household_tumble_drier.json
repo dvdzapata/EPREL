@@ -9,25 +9,11 @@
   },
   "fields": [
     {
-      "key": "Model",
-      "field_name": "Field",
-      "type": "Type",
-      "length_range": "Length/Range",
-      "format": "Format"
-    },
-    {
       "key": "capacityCotton",
       "field_name": "Rated capacity",
       "type": "Number (1 decimal)",
       "length_range": "0.1 - 99.9",
       "format": "#.#"
-    },
-    {
-      "key": "type",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": "AIRVENTED, CONDENSER, GASFIRED",
-      "format": null
     },
     {
       "key": "energyClass",
@@ -198,5 +184,5 @@
       "format": "###.##"
     }
   ],
-  "field_count": 27
+  "field_count": 25
 }

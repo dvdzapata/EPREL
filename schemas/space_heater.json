@@ -16,13 +16,6 @@
       "format": null
     },
     {
-      "key": "type",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": "BOILER, COGENERATORION, HEAT_PUMP, LOW_TEMPERATURE_HEAT_PUMP",
-      "format": null
-    },
-    {
       "key": "seasonalSpaceHeatingEnergyEfficiency",
       "field_name": "Seasonal space heating energy efficiency \n\nSpace heater\n-Heat pump: \n-Low-temperature Heat pump:\nCombination heater\n-Heat pump:\nSeasonal space heating energy efficiency (average climate conditions - Low-temperature)",
       "type": "Number (No decimals)",
@@ -101,7 +94,7 @@
     },
     {
       "key": "ratedHeatOutput",
-      "field_name": "Rated heat output ",
+      "field_name": "Rated heat output",
       "type": "Number (No decimals)",
       "length_range": "1 - 99",
       "format": "##"
@@ -562,5 +555,5 @@
       "format": "####"
     }
   ],
-  "field_count": 79
+  "field_count": 78
 }

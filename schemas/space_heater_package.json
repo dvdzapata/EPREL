@@ -158,7 +158,7 @@
     {
       "key": "heatPumpSeasonalHeatingEnergyEfficiency",
       "field_name": "Supplementary heat pump seasonal space heating energy efficiency",
-      "type": "Number (No decimals)    ",
+      "type": "Number (No decimals)",
       "length_range": "1 - 999",
       "format": "###"
     },

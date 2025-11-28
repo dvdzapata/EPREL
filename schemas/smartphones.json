@@ -26,7 +26,7 @@
       "key": "operatingSystem",
       "field_name": "Operating system",
       "type": "List",
-      "length_range": "\t\nANDROID, IOS, OTHER",
+      "length_range": "ANDROID, IOS, OTHER",
       "format": null
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "key": "minYearsSoftwareUpdates",
-      "field_name": "\tMinimum guaranteed availability of operating system security updates, corrective updates and functionality updates",
+      "field_name": "Minimum guaranteed availability of operating system security updates, corrective updates and functionality updates",
       "type": "Number (no decimals)",
       "length_range": "1999-05-01 00:00:00",
       "format": "#"
@@ -150,7 +150,7 @@
     },
     {
       "key": "repairabilityIndex",
-      "field_name": "\tRepairability Index",
+      "field_name": "Repairability Index",
       "type": "Number (2  decimals)",
       "length_range": "1,00 - 5,00",
       "format": "x,xx"

@@ -9,13 +9,6 @@
   },
   "fields": [
     {
-      "key": "Model",
-      "field_name": "Field",
-      "type": "Type",
-      "length_range": "Length/Range",
-      "format": "Format"
-    },
-    {
       "key": "ratedCapacity",
       "field_name": "Rated capacity",
       "type": "Number (No decimals)",
@@ -114,5 +107,5 @@
       "format": null
     }
   ],
-  "field_count": 15
+  "field_count": 14
 }

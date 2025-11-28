@@ -9,13 +9,6 @@
   },
   "fields": [
     {
-      "key": "Model",
-      "field_name": "Field",
-      "type": "Type",
-      "length_range": "Length/Range",
-      "format": "Format"
-    },
-    {
       "key": "category",
       "field_name": "Category",
       "type": "List",
@@ -156,13 +149,6 @@
       "format": null
     },
     {
-      "key": "type",
-      "field_name": "Type",
-      "type": "List",
-      "length_range": "CELLAR, CHILL, FOUR_STAR, FRESH_FOOD_STORAGE,\nONE_STAR, OTHER, THREE_STAR, TWO_STAR,\nWINE_STORAGE, ZERO_STAR",
-      "format": null
-    },
-    {
       "key": "capacity",
       "field_name": "Storage Volume",
       "type": "Number (No decimals)",
@@ -198,5 +184,5 @@
       "format": null
     }
   ],
-  "field_count": 27
+  "field_count": 25
 }
