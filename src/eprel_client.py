@@ -208,7 +208,10 @@ class EPRELClient:
             items = response.get('data', response.get('items', response.get('products', [])))
             total_count = response.get('total', response.get('totalCount', response.get('count', len(items))))
         
-        has_more = len(items) == page_size and (page * page_size) < total_count
+        # Calculate if there are more pages based on total count
+        # The last page will have fewer items, but we should still process it
+        items_so_far = (page - 1) * page_size + len(items)
+        has_more = items_so_far < total_count
         
         return PaginatedResponse(
             items=items,

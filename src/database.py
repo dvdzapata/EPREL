@@ -318,20 +318,25 @@ class Database:
         columns = ['product_id'] + list(fields.keys())
         values = [product_id] + list(fields.values())
         
-        # Build upsert query
-        insert_cols = ', '.join(columns)
-        insert_vals = ', '.join(['%s'] * len(values))
-        update_set = ', '.join([f"{col} = EXCLUDED.{col}" for col in fields.keys()])
+        # Build upsert query using psycopg2.sql for safe interpolation
+        # Note: table_name and columns are controlled by CATEGORY_TABLES mapping,
+        # not user input, but we use sql.Identifier for safety
+        table_ident = sql.Identifier(table_name)
+        col_idents = sql.SQL(', ').join([sql.Identifier(c) for c in columns])
+        placeholders = sql.SQL(', ').join([sql.Placeholder()] * len(values))
+        update_set = sql.SQL(', ').join([
+            sql.SQL("{} = EXCLUDED.{}").format(sql.Identifier(col), sql.Identifier(col))
+            for col in fields.keys()
+        ])
+        
+        query = sql.SQL("""
+            INSERT INTO {} ({})
+            VALUES ({})
+            ON CONFLICT (product_id) DO UPDATE SET {}
+        """).format(table_ident, col_idents, placeholders, update_set)
         
         with self.cursor() as cur:
-            cur.execute(
-                f"""
-                INSERT INTO {table_name} ({insert_cols})
-                VALUES ({insert_vals})
-                ON CONFLICT (product_id) DO UPDATE SET {update_set}
-                """,
-                values
-            )
+            cur.execute(query, values)
     
     def _get_category_fields(
         self,
@@ -448,42 +453,46 @@ class Database:
         error: Optional[str] = None,
     ):
         """Update sync job status and counts."""
-        updates = []
+        # Build updates list - these are hardcoded field names, not user input
+        update_parts = []
         values = []
         
         if status:
-            updates.append("status = %s")
+            update_parts.append(sql.SQL("{} = %s").format(sql.Identifier('status')))
             values.append(status)
             if status in ('completed', 'failed'):
-                updates.append("completed_at = CURRENT_TIMESTAMP")
+                update_parts.append(sql.SQL("{} = CURRENT_TIMESTAMP").format(sql.Identifier('completed_at')))
         
         if total_products is not None:
-            updates.append("total_products = %s")
+            update_parts.append(sql.SQL("{} = %s").format(sql.Identifier('total_products')))
             values.append(total_products)
         
         if synced_products is not None:
-            updates.append("synced_products = %s")
+            update_parts.append(sql.SQL("{} = %s").format(sql.Identifier('synced_products')))
             values.append(synced_products)
         
         if failed_products is not None:
-            updates.append("failed_products = %s")
+            update_parts.append(sql.SQL("{} = %s").format(sql.Identifier('failed_products')))
             values.append(failed_products)
         
         if error:
-            updates.append("last_error = %s")
+            update_parts.append(sql.SQL("{} = %s").format(sql.Identifier('last_error')))
             values.append(error)
         
-        if not updates:
+        if not update_parts:
             return
         
         values.append(job_id)
         
+        query = sql.SQL("UPDATE {} SET {} WHERE {} = %s").format(
+            sql.Identifier('sync_jobs'),
+            sql.SQL(', ').join(update_parts),
+            sql.Identifier('id')
+        )
+        
         with self.transaction():
             with self.cursor() as cur:
-                cur.execute(
-                    f"UPDATE sync_jobs SET {', '.join(updates)} WHERE id = %s",
-                    values
-                )
+                cur.execute(query, values)
     
     def get_latest_sync_job(self, product_group_code: Optional[str] = None) -> Optional[Dict]:
         """Get the latest sync job, optionally filtered by product group."""
