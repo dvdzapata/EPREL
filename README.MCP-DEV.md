@@ -1,35 +1,43 @@
-# Desarrollo local: MCP mock y configuración de devcontainer (EPREL)
+# Desarrollo local: MCP mock (EPREL)
 
-Estos archivos y scripts te permiten levantar un entorno local y un servidor MCP de prueba para desarrollo y pruebas con Copilot Coding Agent.
+## 🚀 Inicio rápido (UN SOLO COMANDO)
 
-Contenido:
-- .devcontainer/devcontainer.json — configuración del contenedor de desarrollo (VS Code).
-- .github/copilot-coding-agent.json — plantilla JSON para configurar servidores MCP en la coding agent.
-- config/mcp-servers.json — lista local de servidores MCP.
-- tools/mcp-mock/* — mock de servidor MCP (Node.js) con logging, control de concurrencia y timeouts.
+Abre una terminal en la raíz del proyecto y ejecuta:
 
-Rápido inicio (local, sin devcontainer):
-1. Ir al mock:
-   cd tools/mcp-mock
-2. Instalar:
-   npm install
-3. Arrancar (en la terminal verás logging detallado y procesos):
-   MCP_LOCAL_API_KEY=devkey LOG_LEVEL=debug npm start
-   - El servidor quedará escuchando en http://localhost:8080
-   - Endpoints: POST /v1/chat/completions y POST /v1/completions
-   - Health: GET /healthz
+```bash
+bash scripts/start-mock.sh
+```
 
-Notas de seguridad y configuración:
-- Para uso real, no comites las claves. Define variables de entorno en el CI o en GitHub Secrets (ej. MCP_PROXY_API_KEY).
-- En .github/copilot-coding-agent.json los campos apiKeyEnv indican el nombre de la variable de entorno que debe contener la clave.
-- Los timeouts, concurrencia y rate-limits son parámetros de ejemplo; ajústalos a tus necesidades.
+**¡Listo!** El servidor MCP mock estará disponible en http://localhost:8080
 
-Integración con Dev Container:
-- El devcontainer ya exporta `MCP_SERVERS_CONFIG=/workspace/config/mcp-servers.json`.
-- Dentro del container puedes arrancar el mock o tus servicios reales.
-- `postCreateCommand` ejecuta `scripts/setup-dev.sh` si existe; puedes añadir instalaciones específicas ahí.
+---
 
-Próximos pasos sugeridos:
-- Añadir un script `scripts/setup-dev.sh` personalizado para instalaciones adicionales.
-- Crear una versión del mock que haga proxy a OpenAI (sin exponer claves públicas), con reintentos y reanudación de descargas/streams.
-- Añadir una acción de GitHub para arrancar/validar el MCP mock automáticamente.
+## 📁 ¿Qué contiene este setup?
+
+| Archivo | Descripción |
+|---------|-------------|
+| `scripts/start-mock.sh` | **Ejecuta esto** - Arranca el servidor mock automáticamente |
+| `scripts/setup-dev.sh` | Instala dependencias (se ejecuta automático en devcontainer) |
+| `.devcontainer/devcontainer.json` | Configuración para VS Code Dev Container |
+| `config/mcp-servers.json` | Lista de servidores MCP |
+| `tools/mcp-mock/` | Código del servidor mock |
+
+---
+
+## 🧪 Probar el servidor
+
+Una vez arrancado, puedes probar con:
+
+```bash
+curl http://localhost:8080/healthz
+```
+
+Respuesta esperada: `{"status":"ok","uptime":...}`
+
+---
+
+## 🔐 Notas de seguridad
+
+- Las claves API están en variables de entorno, **no en el código**
+- Para producción, configura `MCP_PROXY_API_KEY` en GitHub Secrets
+- El mock usa `MCP_LOCAL_API_KEY=devkey` por defecto (solo desarrollo)
