@@ -34,3 +34,5 @@ build/
 .vscode/
 *.iml
 postgres_data/
+eprel_samples.json
+sync.log
