@@ -1,0 +1,4 @@
+node_modules/
+tools/mcp-mock/node_modules/
+logs/
+.env
