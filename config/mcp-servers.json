@@ -1,0 +1,20 @@
+[
+  {
+    "id": "local-mcp",
+    "url": "http://localhost:8080",
+    "apiKeyEnv": "MCP_LOCAL_API_KEY",
+    "enabled": true,
+    "priority": 10,
+    "timeoutMs": 30000,
+    "maxConcurrency": 6
+  },
+  {
+    "id": "org-mcp-proxy",
+    "url": "https://mcp.example.com",
+    "apiKeyEnv": "MCP_PROXY_API_KEY",
+    "enabled": false,
+    "priority": 50,
+    "timeoutMs": 60000,
+    "maxConcurrency": 20
+  }
+]

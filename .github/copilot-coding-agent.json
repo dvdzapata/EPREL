@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "defaultServerId": "local-mcp",
+  "mcpServers": [
+    {
+      "id": "local-mcp",
+      "name": "Local MCP (dev)",
+      "url": "http://localhost:8080/v1",
+      "priority": 10,
+      "timeoutMs": 30000,
+      "maxConcurrency": 6,
+      "apiKeyEnv": "MCP_LOCAL_API_KEY",
+      "models": [
+        "gpt-4o-mini",
+        "gpt-4o"
+      ],
+      "retry": {
+        "retries": 3,
+        "backoffMs": 250
+      }
+    },
+    {
+      "id": "org-mcp-proxy",
+      "name": "Org MCP Proxy (prod)",
+      "url": "https://mcp.example.com/v1",
+      "priority": 50,
+      "timeoutMs": 60000,
+      "maxConcurrency": 20,
+      "apiKeyEnv": "MCP_PROXY_API_KEY",
+      "models": [
+        "gpt-4o",
+        "gpt-4o-long"
+      ],
+      "retry": {
+        "retries": 2,
+        "backoffMs": 1000
+      }
+    }
+  ],
+  "requestControl": {
+    "rateLimitPerMinute": 600,
+    "maxTokensPerRequest": 8192,
+    "queueSize": 200
+  },
+  "logging": {
+    "level": "debug",
+    "structured": true,
+    "file": "./logs/copilot-coding-agent.log"
+  },
+  "safety": {
+    "validateModelName": true,
+    "allowedOrigins": ["http://localhost:3000", "http://localhost:8080"]
+  }
+}
