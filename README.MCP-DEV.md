@@ -29,9 +29,7 @@ Integración con Dev Container:
 - Dentro del container puedes arrancar el mock o tus servicios reales.
 - `postCreateCommand` ejecuta `scripts/setup-dev.sh` si existe; puedes añadir instalaciones específicas ahí.
 
-Siguientes pasos que puedo hacer por ti:
-- Puedo abrir un PR en el repo con estos archivos ya añadidos.
-- Puedo añadir un script `scripts/setup-dev.sh` para instalar dependencias automáticas en el container.
-- Puedo crear una versión del mock que haga proxy a OpenAI (sin mandar claves públicas), con reintentos y reanudación de descargas/streams si lo necesitas.
-
-Dime si quieres que cree el PR con estos archivos y que añada el script `scripts/setup-dev.sh` y la acción de GitHub para arrancar/validar el MCP mock automáticamente.
+Próximos pasos sugeridos:
+- Añadir un script `scripts/setup-dev.sh` personalizado para instalaciones adicionales.
+- Crear una versión del mock que haga proxy a OpenAI (sin exponer claves públicas), con reintentos y reanudación de descargas/streams.
+- Añadir una acción de GitHub para arrancar/validar el MCP mock automáticamente.

@@ -78,7 +78,8 @@ function withCommon(handler) {
       });
     } catch (err) {
       logger.error({ id, err: err.message || err }, 'handler error');
-      if (!res.headersSent) res.status(500).json({ error: 'internal_server_error', detail: err.message || String(err) });
+      const detail = process.env.NODE_ENV === 'development' ? (err.message || String(err)) : undefined;
+      if (!res.headersSent) res.status(500).json({ error: 'internal_server_error', ...(detail && { detail }) });
     } finally {
       clearTimeout(timer);
       const took = Date.now() - start;
